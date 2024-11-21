@@ -1,0 +1,32 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "GemFind Stuller"
+client_id = "API_KEY"
+application_url = "https://gfstuller.com/install"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+use_legacy_install_flow = true
+
+[auth]
+redirect_urls = [ "https://gfstuller.com/connect" ]
+
+[webhooks]
+api_version = "2022-01"
+
+  [webhooks.privacy_compliance]
+  customer_deletion_url = "https://gfstuller.com/webhook/customer_data_erasure"
+  customer_data_request_url = "https://gfstuller.com/webhook/customer_data_request"
+  shop_deletion_url = "https://gfstuller.com/webhook/shop_data_erasure"
+
+[app_proxy]
+url = "https://gfstuller.com/stuller"
+subpath = "stuller"
+prefix = "apps"
+
+[pos]
+embedded = false
+
+[build]
+dev_store_url = "gemfind-product-demo-site.myshopify.com"

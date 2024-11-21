@@ -1,0 +1,221 @@
+<div class="alert alert-success" style="display:none;"></div>
+<div class="alert alert-danger fade in alert-dismissible" style="display:none;"></div>
+
+{% assign showcases = block.settings.gf-showcase-url | split: "/" %}
+<link href="{{ "custom.css" | asset_url }}" rel="stylesheet">
+
+<div class="loading-mask gemfind-loading-mask">
+  <div class="loader gemfind-loader"><p>Please wait...</p></div>
+</div>
+
+
+{% assign post_robot_url = showcases[0] | append: "//" | append: showcases[1] | append: showcases[2] %}
+
+<script src="{{ post_robot_url }}/Scripts/build/lib/post-robot.js" async onload="postRobotLoaded()"></script>
+
+<script>
+// Function to be called when postRobot is loaded
+function postRobotLoaded() {
+  console.log('postRobot script loaded successfully..!!');
+
+  var options = {
+    window: document.getElementById("iframe").contentWindow,
+    domain: "{{ showcases[0] }}//{{ showcases[1] }}{{ showcases[2] }}"
+  };
+
+  postRobot.on("init", options, function(event) {
+    console.log('init event live');
+    console.log(event.data);
+    // API becomes available to the hosting site
+  });
+
+  postRobot.on("addToCart", options, function(event) {
+    var shop = Shopify.shop;
+    var configurationId = "";
+    var productId, type;
+
+    if (event.data.itemId) {
+      productId = event.data.itemId;
+      configurationId = event.data.configurationId || "";
+      type = configurationId ? 2 : 1;
+    } else if (event.data.configurationId) {
+      configurationId = event.data.configurationId;
+      type = 2;
+    } else if (event.data.serialNumber) {
+      productId = event.data.serialNumber;
+      type = 3;
+    }
+
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", "https://gfstuller.com/stuller/cartadd", true);
+    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+    xhr.onload = function() {
+      if (xhr.status >= 200 && xhr.status < 300) {
+        var response = JSON.parse(xhr.responseText);
+
+        if (response.outofstock) {
+          document.querySelector(".alert-danger").innerHTML = response.outofstock_msg;
+          document.querySelector(".alert-danger").style.display = "block";
+          setTimeout(function() {
+            document.querySelector(".alert-danger").style.display = "none";
+          }, 5000);
+        } else {
+          document.querySelector(".gemfind-loading-mask").style.display = "none";
+          handleCartSuccess(response);
+        }
+      } else {
+        console.log("Error: " + xhr.statusText);
+      }
+    };
+
+    xhr.onerror = function() {
+      console.log("Error: " + xhr.statusText);
+    };
+
+    var data = "productId=" + productId + "&configurationId=" + configurationId + "&shop=" + shop + "&type=" + type + "&quantity=" + event.data.quantity + "&price=" + event.data.price;
+
+    document.querySelector(".gemfind-loading-mask").style.display = "block";
+    xhr.send(data);
+  });
+}
+
+function handleCartSuccess(response) {
+  var enablePopupMessage = "{{ block.settings.enable_popup_message }}";
+
+  if (enablePopupMessage == "true") {
+    showPopup(response.custom_msg, response.AddToCart);
+
+  } else {
+
+
+    document.querySelector(".alert-success").innerHTML = response.custom_msg;
+    document.querySelector(".alert-success").innerHTML += '<span>You will be automatically redirected to cart in <b id="count_time_point">10</b></span>';
+    document.querySelector(".alert-success").style.display = "block";
+
+    var count_time = 9;
+    var myfunc = setInterval(function() {
+      document.getElementById("count_time_point").textContent = count_time;
+      if (count_time <= 1) clearInterval(myfunc);
+      count_time--;
+    }, 1000);
+
+    setTimeout(function() {
+      window.location.href = response.AddToCart;
+    }, 9000);
+  }
+}
+
+function showPopup(message, cartUrl) {
+  var popupHtml = `
+			        <div id="gfstuller-custom-popup-overlay" class="gfstuller-popup-overlay">
+			            <div id="gfstuller-custom-popup" class="gfstuller-popup">
+			                <div class="gfstuller-popup-content">
+			                    <span class="gfstuller-popup-close">&times;</span>
+			                    <p>${message}</p>
+			                </div>
+			            </div>
+			        </div>
+
+			        <style>
+			        .gfstuller-popup-overlay {
+			            position: fixed;
+			            top: 0;
+			            left: 0;
+			            width: 100%;
+			            height: 100%;
+			            background: rgba(0, 0, 0, 0.7); /* Dark semi-transparent background */
+			            display: flex; /* Use flexbox */
+			            justify-content: center; /* Center horizontally */
+			            align-items: center; /* Center vertically */
+			            z-index: 9999; /* Ensure it's on top of other elements */
+			        }
+
+			       .gfstuller-popup {
+					    background-color: #fff;
+					    padding: 45px 25px;
+					    border-radius: 8px;
+					    max-width: 500px;
+					    width: 100%;
+					    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+					    position: relative;
+					    text-align: center;
+					    margin: 0 20px;
+					}
+
+			        .gfstuller-popup-content p {
+			            margin-bottom: 10px;
+			            font-size: 18px;	
+			        }
+
+			       .gfstuller-popup-close {
+					    position: absolute;
+					    top: -8px;
+					    right: -8px;
+					    cursor: pointer;
+					    font-size: 30px;
+					    color: #333;
+					    background-color: #ddd;
+					    width: 35px;
+					    border-radius: 25px;
+					    height: 35px;
+					    line-height: 35px;
+					    font-weight: bold;
+
+					}
+			        </style>
+			    `;
+
+  document.body.insertAdjacentHTML('beforeend', popupHtml);
+  document.querySelector('#gfstuller-custom-popup-overlay').style.display = "flex";
+
+  setTimeout(function() {
+    window.location.href = cartUrl;
+  }, 9000);
+
+  document.querySelector('.gfstuller-popup-close').addEventListener('click', function() {
+    document.querySelector('#gfstuller-custom-popup-overlay').style.display = 'none';
+    document.querySelector('#gfstuller-custom-popup-overlay').remove();
+  });
+}
+</script>
+
+<iframe style="width: 1px; min-width: 100%;" scrolling="{% if block.settings.gf-showcase-scroll == true %}yes{% else %}no{% endif %}" width="100%" id="iframe" height="{{ block.settings.gf-showcase-iframe-height }}" frameborder="0" src="{{ block.settings.gf-showcase-url }}"></iframe>
+
+
+{% schema %}
+{
+  "name": "GemFind Stuller Showcase",
+  "target": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "gf-showcase-url",
+      "label": "Showcase URL",
+      "default": "https://example.com",
+      "info": "Enter the URL for the showcase."
+    },
+    {
+      "type": "text",
+      "id": "gf-showcase-iframe-height",
+      "label": "Showcase Height",
+      "default": "1700px",
+      "info": "Set dynamic showcase height."
+    },
+    {
+      "type": "checkbox",
+      "id": "gf-showcase-scroll",
+      "label": "Enable Showcase Scroll",
+      "default": true,
+      "info": "Check this box to enable scrolling on the showcase."
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_popup_message",
+      "label": "Enable Popup Message",
+      "default": false,
+      "info": "Display a popup when an item is added to cart."
+    }
+  ]
+}
+{% endschema %}

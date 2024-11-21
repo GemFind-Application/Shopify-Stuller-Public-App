@@ -1,0 +1,4775 @@
+@font-face {
+    font-family: 'luma-icons';
+    src: url('../fonts/Luma-Icons.eot');
+    src: url('../fonts/Luma-Icons.eot?#iefix') format('embedded-opentype'), url('../fonts/Luma-Icons.woff2') format('woff2'), url('../fonts/Luma-Icons.woff') format('woff'), url('../fonts/Luma-Icons.ttf') format('truetype'), url('../fonts/Luma-Icons.svg') format('svg');
+    font-weight: 300;
+    font-style: normal
+}
+body a:hover {
+   color: inherit;
+}
+body.impulse-gemfind .site-footer a:hover {
+   opacity: 1;
+}
+::selection {
+   background: #3297FD !important;
+}
+.filter-main.filter-alignment-right li {
+   font-size: 14px;
+}
+
+.impulse-gemfind.gemfind-tool .main-content,
+body.impulse-gemfind,
+body.impulse-gemfind #search-diamonds,
+body.impulse-gemfind .search-details .table tbody tr td
+{
+ font-family: 'Futura', sans-serif;
+}
+.impulse-gemfind .main-content .filter-details h4{
+     letter-spacing: 0;
+     width: 165px;
+}
+.impulse-gemfind .diamonds-product-view .breadcrumbs ul{
+list-style: none;
+   margin-left: 0;
+}
+.impulse-gemfind .compare-actions .tooltip.bottom{
+display: none !important;
+}
+.impulse-gemfind a:hover {
+   text-decoration: none;
+}
+.impulse-gemfind a.site-nav__dropdown-link,.impulse-gemfind a.site-nav__dropdown-link:hover {
+   color: #000;
+}
+.impulse-gemfind .diamonds-search,.impulse-gemfind  .result.filter-advanced,
+.impulse-gemfind .diamonds-product-view .breadcrumbs {
+   padding: 2% 2% 0;
+   float: left;
+   width: 100%;
+   box-sizing: border-box;
+}
+.impulse-gemfind .diamonds-search label,
+.impulse-gemfind .filter-for-shape .cut-main ul li,
+.impulse-gemfind .filter-details .fancy-color-filter ul li,
+.impulse-gemfind .filter-details .color-filter ul li,
+.impulse-gemfind .filter-details .filter-advanced-main ul li {
+   font-size: 12px !important;
+   letter-spacing: 1px;
+}
+.impulse-gemfind .filter-details .cut-main ul li,
+.impulse-gemfind .filter-details .polish-depth ul li,
+.impulse-gemfind .color-filter ul li {
+   text-transform: uppercase;
+}
+.impulse-gemfind #shopify-section-footer {
+   clear: both;
+}
+.impulse-gemfind .diamonds-search .result.filter-advanced {
+   padding: 0;
+}
+.impulse-gemfind .collapsible-trigger-btn{
+ font-size: 0.75em
+}
+/**/
+.diamond-info {
+   float: left;
+   width: 100%;
+   border: 1px solid #e5e5e5;
+   text-align: center;
+   padding: 28px 20px 28px 20px;
+   box-sizing: border-box;
+}
+
+.compare-or-details button.btn-compare {
+   background: #1979c3;
+   font-size: 0;
+   border: 0;
+   padding: 0;
+   height: 40px;
+   width: 40px;
+}
+
+.compare-or-details button.btn-compare {
+   background: #1979c3;
+   font-size: 0;
+   border: 0;
+   padding: 0;
+   height: 40px;
+   width: 40px;
+   background-image: url(../images/spirit-img.png);
+   background-position: 10px 8px;
+   margin: 0 2px;
+   background-repeat: no-repeat;
+   box-shadow: none;
+   border-radius: 0;
+}
+
+.compare-or-details {
+   width: 100%;
+   display: table;
+   vertical-align: middle;
+}
+
+.compare-or-details button.btn-details {
+   background: #1979c3;
+   color: #fff;
+   border: 0;
+   font-size: 20px;
+   height: 40px;
+   display: inline-block;
+   vertical-align: top;
+   margin: 0 2px;
+   box-shadow: none;
+   border-radius: 0;
+}
+
+.diamond-info h4 {
+   font-size: 19px;
+}
+
+.diamond-info h5 {
+   font-size: 17px;
+}
+
+.diamond-info h2 {
+   font-weight: bold;
+   font-size: 24px;
+}
+
+.diamond-info span {
+   font-size: 17px;
+   margin-bottom: 40px;
+   display: inline-block;
+}
+
+.diamonds-filter {
+   float: left;
+   width: 100%;
+   clear: both;
+}
+
+.diamond-filter-title {
+   float: left;
+   width: 100%;
+   background: #e8e8e8;
+   padding: 19px 0;
+   padding-left: 20px;
+   box-sizing: border-box;
+}
+
+.diamond-filter-title ul {
+   float: left;
+   padding: 0;
+   list-style: none;
+   margin: 0;
+}
+
+.diamond-filter-title ul.filter-left {width: 55%}
+.diamond-filter-title ul.filter-right {width: 45%}
+
+
+.diamond-filter-title ul li {
+   float: left;
+   margin-right: 30px;
+   margin-bottom: 0;
+}
+
+.diamond-filter-title ul li a {
+   font-size: 18px;
+   color: #000;
+   text-decoration: none;
+   font-weight: 500;
+}
+
+.diamonds-filter ul.filter-right {
+   text-align: right;
+   float: left;
+}
+
+.diamonds-filter ul.filter-right li {
+   text-align: right;
+   float: none;
+   display: inline-block;
+   position: relative;
+   margin-right: 40px;
+   padding: 0;
+}
+
+.diamond-filter-title ul li a:before {
+   position: absolute;
+   left: -23px;
+   top: 3px;
+   height: 20px;
+   width: 20px;
+   font-family: 'luma-icons';
+   
+   font-size: 16px;
+}
+.diamonds-filter ul.filter-right li:nth-last-of-type(2)
+{
+   margin-right: 40px;
+}
+.diamonds-filter ul.filter-right li:nth-last-of-type(2) a:before{
+   content: '\e614';
+}
+
+.diamonds-filter ul.filter-right li:nth-last-of-type(1) a:before {
+   content: '\e628';
+}
+
+.diamonds-filter ul.filter-right li:nth-last-of-type(1) {
+   margin-right: 20px;
+}
+
+.filter-details {
+   float: left;
+   width: 100%;
+   clear: both;
+   padding-top: 10px;
+   padding-right: 0;
+   box-sizing: border-box;
+}
+
+.filter-for-shape {
+   width: 50%;
+   float: left;
+}
+
+.shape-bg {
+   background: #fafafa;
+   box-sizing: border-box;
+   width: 100%;
+   clear: both;
+   padding: 18px 18px 0;
+   float: left;
+   width: 100%;
+}
+
+.filter-details ul {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+   float: left;
+   width: 100%;
+   clear: both;
+   box-sizing: border-box;
+   display: flex;
+}
+
+.filter-details h4 {
+   margin: 0;
+   font-size: 14px;
+   font-weight: 500;
+   margin-bottom: 0;
+   margin-top: 5px;
+   text-align: left;
+   margin-right: 10px;
+   width: 135px;
+   overflow: hidden;
+       line-height: 25px; 
+}
+
+#search-diamonds-form #submit{
+   display: none;
+}
+.filter-for-shape ul li {
+   float: left;
+   width: 9%;
+   text-align: center;
+   margin-right: 1.1%;
+   position: relative;
+   margin-bottom: 10px;
+}
+.filter-for-shape ul li:last-child {
+   margin-right: 0;
+}
+
+.filter-for-shape ul li p {
+   margin: 0;
+   font-size: 16px;
+   line-height: normal;
+   padding-bottom: 3px;
+   margin-top: 24px;
+}
+
+.filter-details ul li input[type=checkbox] {
+   position: absolute;
+   margin: 0;
+   width: 100%;
+   left: 0;
+   height: 100%;
+   opacity: 0;
+   z-index: 2;
+   top: 0;
+   cursor: pointer;
+}
+
+.filter-details .shape-type {
+   border: 1px solid #dacaca;
+}
+
+.filter-details .shape-type.selected {
+   background: #1979c3;
+}
+
+.filter-details .shape-type {
+   border: 1px solid #9f9f9f;
+   padding: 5px 0px;
+   min-height: 42px;
+   text-align: center;
+   background: #f7f7f7;
+   box-sizing: border-box;
+}
+
+.filter-main {
+   float: left;
+   width: 50%;
+   box-sizing: border-box;
+}
+
+.filter-main.filter-alignment-left {
+   padding-left: 5px;
+}
+
+.filter-main.filter-alignment-right {
+   padding-right: 5px;
+}
+
+.filter-for-shape .cut-main ul li {
+   border: 1px solid #9f9f9f;
+   padding: 11px 27px;
+   width: 15%;
+   text-align: center;
+   float: none;
+   position: relative;
+   margin-bottom: 10px;
+   display: inline-block;
+}
+
+.filter-for-shape .cut-main ul li a {
+   font-size: 18px;
+   color: #010101;
+   text-decoration: none;
+}
+
+.cut-main {
+   float: left;
+   width: 100%;
+   text-align: center;
+   display: auto;
+}
+
+.filter-for-shape .cut-main ul li.active a {
+   color: #fff;
+}
+
+.color-filter ul li {
+       margin-top: 0;
+   margin-bottom: 10px;
+   display: inline-block;
+   text-align: center;
+   box-sizing: border-box;
+}
+
+.color-filter {
+   float: left;
+   width: 100%;
+   text-align: left;
+   display: flex;
+}
+
+.color-filter ul li {
+   display: inline-block;
+   text-align: center;
+   width: 9.7%;
+   padding: 9px 0;
+   margin: 0 0.5%;
+   border: 1px solid #9f9f9f;
+   position: relative;
+}
+
+.color-filter ul li a {
+   color: #010101;
+   font-size: 16px;
+   text-transform: uppercase;
+   text-decoration: none;
+   width: 100%;
+   float: left;
+}
+
+.color-filter ul li.active a {
+   color: #fff;
+}
+
+.color-filter.clarity-filter ul li {
+   width: 8.6%;
+}
+
+.price_carat-filter.shape-container.shape-flex .filter-main {
+   max-width: 50%;
+   flex: 0 0 50%;
+   padding: 0;
+}
+.filter-advanced .accordion {
+   color: #444;
+   cursor: pointer;
+   padding: 5px 10px 5px 35px;
+   width: 100%;
+   border: none;
+   text-align: left;
+   outline: none;
+   font-size: 18px;
+   font-weight: 600;
+   transition: 0.4s;
+   background: #fafafa;
+   position: relative;
+   box-shadow: none;
+}
+
+.filter-advanced .panel {
+   max-height: none !important;
+   float: left;
+   width: 100%;
+   box-shadow: none;
+}
+
+.filter-advanced .accordion:before {
+   content: '';
+   position: absolute;
+   left: 0;
+   top: 3px;
+   content: '\e61C';
+   font-family: 'luma-icons';
+   text-align: center;
+   -webkit-transform: .8s ease-in-out;
+   transition: transform .8s ease-in-out;
+   padding: 5px;
+   font-size: 16px;
+}
+
+.filter-advanced .accordion.active:before {
+   content: '\e60f';
+}
+
+.filter-details .polish-depth ul li {
+   float: left;
+   width: 23%;
+   margin: 0 1.1% 0 0 ;
+   border: 1px solid #9f9f9f;
+   padding: 9px 0;
+   text-align: center;
+   box-sizing: border-box;
+   position: relative;
+}
+.filter-details .polish-depth ul li:last-child {
+   margin-right: 0;
+}
+
+.polish-depth {
+   float: left;
+   width: 100%;
+   margin-bottom: 18px;
+       display: flex;
+}
+
+.filter-details .polish-depth ul li a {
+   font-size: 16px;
+   text-decoration: none;
+}
+
+.filter-advanced-main {
+   float: left;
+   width: 50%;
+   clear: both;
+   padding-bottom: 10px;
+   margin-bottom: 10px;
+   box-sizing: border-box;
+}
+.filter-advanced .shape-flex .filter-main {
+   flex: 0 0 50%;
+   max-width: 50%;
+   padding-bottom: 20px
+}
+.filter-advanced .shape-flex .filter-main:last-child {
+   padding-left: 20px;
+}
+
+.filter-details .polish-depth.filter-Fluoroscence ul li {
+   width: 18%;
+   text-transform: uppercase;
+}
+
+.filter-details .polish-depth.filter-Fluoroscence ul li a {
+   text-transform: uppercase;
+}
+
+.filter-details .polish-depth.filter-Fluoroscence ul li a {
+   text-transform: uppercase;
+   text-decoration: none;
+}
+
+.filter-advanced .filter-advanced-main {
+   float: left;
+   clear: none;
+   width: 100%;
+   flex: 0 0 100%;
+   max-width: 100%;
+}
+
+.filter-advanced .filter-advanced-main.advance-left {
+   padding-right: 0px;
+   margin-bottom: 0;
+   padding-bottom: 0
+}
+h4.certificates-formobile {
+   display: none;
+}
+.filter-details ul li:last-child {
+   margin-right: 0;
+}
+
+.filter-details ul li {
+   flex: 1 1 auto;
+   -ms-flex: 1 1 auto;
+   max-width: initial;
+}
+.filter-advanced .filter-advanced-main.advance-r3450ight {
+   padding-left: 10px;
+}
+
+.filter-advanced-main.advance-right .fluo-right {
+   float: left;
+   width: 50%;
+   padding: 0 10px;
+   box-sizing: border-box;
+}
+
+.filter-advanced-main.advance-right .fluo-right select {
+   width: 100%;
+   border: 1px solid #9f9f9f;
+   height: 34px;
+   background: #e8e8e8;
+   font-size: 16px;
+}
+
+.filter-advanced-main.advance-right .fluo-right select option {
+   font-size: 16px;
+}
+
+.search-details .table thead tr th {
+   font-size: 14px;
+   font-weight: normal;
+   text-align: center;
+}
+
+.search-details .table tbody tr td,
+.search-details .table tbody tr th {
+   background: #fafafa;
+}
+
+.search-details .table tbody tr:hover td,
+.search-details .table tbody tr:hover th {
+   background: #e5e5e5;
+   cursor: pointer;
+}
+
+.searching-result {
+   float: left;
+   width: 100%;
+   clear: both;
+}
+
+.no-result-div{   
+   text-align: center;
+   font-size: 24px;
+   margin-bottom: 50px;
+}
+.searching-result .number-of-search {
+   width: 40%;
+   float: left;
+}
+
+.searching-result .view-or-search-result {
+   width: 40%;
+   float: left;
+}
+.diamonds-product-view .searching-result .view-or-search-result{
+   width: 60%;
+}
+
+.search-details .table-responsive {
+   float: left;
+   width: 100%;
+   overflow: auto;
+   margin-top: 20px;
+}
+
+.number-of-search p {
+   font-size: 14px;
+   color: #000;
+   margin-bottom: 0;
+   float: left;
+}
+.number-of-search p strong {
+   margin-right: 10px;
+}
+
+.change-view-result p {
+   font-size: 16px;
+   color: #000;
+   float: left;
+   display: inline-block;
+   margin: 0;
+}
+
+.change-view-result ul {
+   padding: 0;
+   list-style: none;
+   margin: 0;
+   float: none;
+   width: auto;
+   padding-left: 10px;
+   text-align: right;
+   display: inline-block;
+   margin-top: 1px;
+   line-height: 30px;
+   height: 30px;
+}
+
+.change-view-result ul li {
+   float: left;
+   position: relative;
+   padding-left: 29px;
+   margin-right: 6px;
+   padding-top: 2px;
+   margin-bottom: 0;
+}
+
+.change-view-result ul li a:before {
+   content: '';
+   font-family: 'luma-icons';
+   font-size: 22px;
+   text-align: center;
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 30px;
+   height: 30px;
+}
+
+.change-view-result ul li.grid-view a:before {
+   background-color: #e8e8e8;
+   content: '\e60d';
+   font-size: 16px;
+   line-height: 30px;
+}
+
+.change-view-result ul li.list-view a:before {
+   background-position: -299px -3px;
+}
+
+.change-view-result ul li a {
+   font-size: 0;
+}
+
+.searching-result .view-or-search-result .change-view-result {
+   width: 100%;
+   float: left;
+   text-align: right;
+   margin-bottom: 5px;
+   display: inline-block;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: flex-end;
+}
+
+.search-in-table {
+   float: right;
+   display: inline-block;
+   vertical-align: middle;
+   position: relative;
+   width: 20%;
+}
+
+.search-in-table input {
+   background: #fafafa!important;
+   border: 0;
+   min-width: 210px;
+   padding: 8px 10px;
+   padding-right: 58px;
+   margin: 0;
+}
+.search-in-table input:focus{outline: none;}
+.search-in-table button{
+   border: 0;
+   padding: 0;
+   margin-top: 0;
+   margin-left: 0;
+   background-position: 255px 7px;
+   position: absolute;
+   right: 0;
+   height: 100%;
+   border-radius: 0;
+   top: 0;
+   box-shadow: none;
+   color: rgba(0, 0, 0, 0);
+   width: 35px;
+   line-height: 33px;
+}
+
+.search-in-table button:before {
+   content: '';
+   content: '\e615';
+   font-family: 'luma-icons';
+   float: left;
+   width: 100%;
+   height: 100%;
+   font-size: 16px;
+   font-weight: normal;
+}
+
+.search-details .table thead tr>.selector-head {
+   font-size: 0;
+   position: relative;
+}
+
+.search-details .table thead tr>th.selector-head:before {
+   content: '';
+   position: absolute;
+   left: 0;
+   top: 9px;
+   background-image: url(../images/spirit-img.png);
+   width: 30px;
+   height: 30px;
+   background-position: 5px 6px;
+}
+
+.search-details .table tbody tr th.table-selecter {
+   position: relative;
+}
+
+.search-details .table tbody tr th.table-selecter input[type="checkbox"] {
+   position: absolute;
+   left: 0;
+   top: 0;
+   min-width: 1em;
+   width: 100%;
+   height: 100%;
+   z-index: 2;
+   opacity: 0;
+   margin: 0;
+   padding: 0;
+   cursor: pointer;
+   box-sizing: border-box;
+   padding: 0;
+}
+
+.search-details .table tbody tr th.table-selecter input[type="checkbox"]:checked~.state label:after {
+   transform: scale(3.5);
+   opacity: 0;
+   transition: all 0.3s ease;
+   border-radius: 50%;
+}
+
+.search-details .table tbody tr th.table-selecter input[type="checkbox"]:checked~.state label:before {
+   opacity: 1;
+}
+
+.search-details .table tbody tr th.table-selecter .state label {
+   position: absolute;
+   display: inline-block;
+   font-weight: 400;
+   margin: 0;
+   text-indent: 1.5em;
+   min-width: calc(1em + 2px);
+   font-size: 0;
+   top: 0;
+   width: 20px;
+   height: 20px;
+}
+
+.search-details .table tbody tr th.table-selecter .state label:before {
+   content: '';
+   width: 16px;
+   height: 16px;
+   display: block;
+   box-sizing: border-box;
+   border-radius: 0;
+   z-index: 0;
+   position: absolute;
+   left: 0;
+   top: 1px;
+   background-color: transparent;
+   border-radius: 4px;
+}
+
+.search-details .table tbody tr th.table-selecter .state label:after {
+   content: '';
+   width: 16px;
+   height: 16px;
+   display: block;
+   box-sizing: border-box;
+   border-radius: 0;
+   z-index: 0;
+   position: absolute;
+   left: 0;
+   top: 1px;
+   background-color: transparent;
+   border-radius: 4px;
+}
+
+.search-details .table tbody tr th.table-selecter .state {
+   position: absolute;
+   top: 16px;
+   width: 20px;
+   height: 20px;
+   left: 8px;
+}
+
+.search-details {
+  /* margin-top: 30px;*/
+}
+
+.d-container {
+   float: left;
+   width: 100%;
+   clear: both;
+}
+
+.d-row {
+   float: left;
+   width: 100%;
+   clear: both;
+}
+
+
+/*CUSTOM TABLE STYLE END*/
+
+
+.search-details .table>tbody>tr>th,
+.search-details .table>tfoot>tr>th,
+.search-details .table>thead>tr>th {
+   padding: 15px;
+   line-height: 1.42857143;
+   vertical-align: top;
+}
+
+.search-details .table>tbody>tr>td, .search-details .table>thead>tr>td, .search-details .table>tfoot>tr>td {
+   padding: 12px;
+}
+
+.search-details th {
+   text-align: left;
+}
+
+.search-details .table {
+   width: 100%;
+   max-width: 100%;
+   margin-bottom: 20px;
+   border-spacing: 0;
+   border-collapse: collapse;
+   background-color: transparent;
+   box-sizing: border-box;
+   float: left;
+}
+
+
+/*CUSTOM TABLE STYLE END*/
+
+.d-container {
+   float: left;
+   width: 100%;
+   clear: both;
+   max-width: 100%;
+   margin: 0 auto;
+   float: none;
+}
+
+.diamonds-preview {
+   width: 330px;
+   float: left;
+}
+
+.diamonds-details {
+   width: 100%;
+   float: left;
+}
+
+.filter-details .shape-type:after {
+   background-image: url(../images/shape-images.png);
+   content: '';
+   float: left;
+   width: 32px;
+   height: 32px;
+   position: absolute;
+   top: 5px;
+   right: 0;
+   left: 0;
+   margin: 0 auto;
+   z-index: 1;
+   transition: all 500ms cubic-bezier(0, 0.4, 0.51, 1.35);
+   background-size:15em;
+}
+
+
+/*Round shape*/
+
+.filter-for-shape ul li.round .shape-type:after {
+   background-position: -46px 0;
+}
+
+.filter-for-shape ul li.round .shape-type.selected:after {
+   background-position: -46px -44px;
+}
+
+
+/*Round shape*/
+
+
+/*princess shape*/
+
+.filter-for-shape ul li.princess .shape-type:after {
+   background-position: -173px -2px;
+}
+
+
+.filter-for-shape ul li.princess .shape-type.selected:after {
+   background-position: -173px -44px;
+}
+
+
+/*princess shape*/
+
+
+/*emerald shape*/
+
+.filter-for-shape ul li.emerald .shape-type:after {
+   background-position: -215px -2px;
+}
+
+.filter-for-shape ul li.emerald .shape-type.selected:after {
+   background-position: -215px -45px;
+}
+
+
+/*emerald shape*/
+
+
+/*radiant shape*/
+
+.filter-for-shape ul li.radiant .shape-type:after {
+   background-position: -300px -2px;
+}
+
+.filter-for-shape ul li.radiant .shape-type.selected:after {
+   background-position: -300px -46px;
+}
+
+
+/*radiant shape*/
+
+
+/*cushion shape*/
+
+.filter-for-shape ul li.cushion .shape-type:after {
+   background-position: 37px -95px;
+}
+
+.filter-for-shape ul li.cushion .shape-type.selected:after {
+   background-position: 37px -137px;
+}
+
+
+/*cushion shape*/
+
+
+/*pear shape*/
+
+.filter-for-shape ul li.pear .shape-type:after {
+   background-position: -4px -94px;
+}
+
+
+.filter-for-shape ul li.pear .shape-type.selected:after {
+   background-position: -4px -138px;
+}
+
+
+/*pear shape*/
+
+
+/*marquise shape*/
+
+.filter-for-shape ul li.marquise .shape-type:after {
+   background-position: -47px -94px;
+}
+
+
+.filter-for-shape ul li.marquise .shape-type.selected:after {
+   background-position: -47px -139px;
+}
+
+
+/*marquise shape*/
+
+
+/*oval shape*/
+
+.filter-for-shape ul li.oval .shape-type:after {
+   background-position: -88px -94px;
+}
+
+
+.filter-for-shape ul li.oval .shape-type.selected:after {
+   background-position: -88px -137px;
+}
+
+
+/*oval shape*/
+
+
+/*asscher shape*/
+
+.filter-for-shape ul li.asscher .shape-type:after {
+   background-position: -131px -3px;
+}
+.filter-for-shape ul li.asscher .shape-type.selected:after {
+   background-position: -131px -46px;
+}
+
+
+/*asscher shape*/
+
+
+/*heart shape*/
+
+.filter-for-shape ul li.heart .shape-type:after {
+   background-position: -132px -93px;
+}
+.filter-for-shape ul li.heart .shape-type.selected:after {
+   background-position: -132px -138px;
+}
+
+
+/*heart shape*/
+
+
+/* Slider
+----------------------------------*/
+
+#search-diamonds .ui-slider {
+   position: relative;
+   text-align: left;
+}
+
+#search-diamonds .ui-slider .ui-slider-val {
+   width: 75px;
+   margin-top: 30px;
+   border: 1px solid #cecece;
+   height: 24px;
+   line-height: 24px;
+   padding: 0 8px;
+   text-align: right;
+   border-radius: 100px;
+   color: #2c2c2c;
+   -webkit-appearance: none;
+   appearance: none;
+}
+
+#search-diamonds .ui-slider .ui-slider-val.slider-left {
+   float: left;
+}
+
+#search-diamonds .ui-slider .ui-slider-val.slider-right {
+   float: right;
+   width: 130px;
+}
+
+#search-diamonds .ui-slider .ui-slider-handle {
+   position: absolute;
+   z-index: 2;
+   cursor: default;
+   width: 23px;
+   height: 23px;
+   top: -6px;
+   margin-left: -10px;
+   border-radius: 50% !important;
+   outline: 0 none;
+   -webkit-transform: .2s ease-out, background 0.3s;
+   transition: transform 0.2s, background 0.3s;
+}
+
+#search-diamonds .ui-slider .noUi-handle {
+   z-index: 2;
+   width: 23px;
+   height: 23px;
+   border-radius: 50% !important;
+   outline: 0 none;
+   -webkit-transform: .2s ease-out, background 0.3s;
+   transition: transform 0.2s, background 0.3s;
+   border: none;
+   box-shadow: none;
+   top: -6.5px;
+}
+.noUi-base {background: #FCFDFD;border-radius: 30px;}
+#search-diamonds .ui-slider .noUi-handle:before, #search-diamonds .ui-slider .noUi-handle:after{display: none;}
+#search-diamonds .ui-slider .ui-slider-handle.ui-state-active {
+   -webkit-transform: scale(1.5);
+   transform: scale(1.5);
+}
+
+#search-diamonds .ui-slider .noUi-handle.noUi-active {
+   -webkit-transform: scale(1.5);
+   transform: scale(1.5);
+}
+
+
+#search-diamonds .ui-slider .ui-slider-range {
+   position: absolute;
+   z-index: 1;
+   font-size: .7em;
+   display: block;
+   border: 0;
+}
+
+#search-diamonds .ui-slider-horizontal {
+   height: 12px;
+   border: 1px solid #e5e5e5;
+   background: #FCFDFD;
+   border-radius: 30px;
+       width: 96%;
+   float: none;
+   text-align: center;
+   display: block;
+   margin: 0 auto;
+}
+
+#search-diamonds .noUi-horizontal {
+   height: 12px;
+   border: 1px solid #e5e5e5;
+   background: #FCFDFD;
+   border-radius: 30px;
+       width: 96%;
+   float: none;
+   text-align: center;
+   display: block;
+   margin: 0 auto;
+}
+
+#search-diamonds .ui-slider-horizontal .ui-slider-range {
+   height: 100%;
+   top: 0px;
+}
+
+#search-diamonds .ui-slider-horizontal .ui-slider-range-min {
+   left: 0;
+}
+
+#search-diamonds .ui-slider-horizontal .ui-slider-range-max {
+   right: 0;
+}
+
+
+/* Label slider Legend */
+
+#search-diamonds .ui-slider-legend p {
+   margin: 12px 0 0 0;
+   float: left;
+   text-align: center;
+   position: relative;
+}
+
+#search-diamonds .ui-slider-legend p b {
+   font-weight: normal;
+   font-size: 12px;
+   color: #788589;
+   display: block;
+   overflow: hidden;
+   text-overflow: ellipsis;
+}
+
+#search-diamonds .ui-slider-legend p.first span {
+   display: none;
+}
+
+#search-diamonds .ui-slider-legend p span {
+   display: block;
+   position: absolute;
+   top: -22px;
+   z-index: 0;
+   border-radius: 50%;
+   width: 5px;
+   height: 5px;
+   background: #E6E6E6;
+}
+
+.search-view-grid .product-box-action input[type="checkbox"] {
+   top: 0;
+   left: 0;
+}
+
+.product-box-action .state {
+   padding-left: 25px;
+}
+
+.search-view-grid {
+   float: left;
+   width: 100%;
+}
+
+.grid-product-listing {
+   float: left;
+   width: 100%;
+   clear: both;
+}
+
+.search-product-grid {
+   float: left;
+   width: 23%;
+   box-sizing: border-box;
+   margin: 1% 1%;
+   padding: 10px;
+   border: 1px solid #e8e8e8;
+   text-align: center;
+   position: relative;
+}
+
+.search-product-grid .product-images,
+.search-product-grid .product-details,
+.search-product-grid .product-images,
+.search-product-grid .product-item-name {
+   float: left;
+   width: 100%;
+}
+.search-product-grid .product-images{
+   min-height: 205px;
+   max-height: 205px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.product-inner-info {
+   position: absolute;
+   top: 0;
+   width: 90%;
+   right: 0;
+   background: rgba(250, 250, 250, 0.9);
+   opacity: 0;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   word-break: break-all;
+   height: auto;
+   overflow: auto;
+   visibility: hidden;
+}
+
+.product-inner-info.active {
+   opacity: 1;
+   visibility: visible;
+}
+
+.product-inner-info ul {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+   float: left;
+   width: 100%;
+   padding: 20px 10px 10px 10px;
+   box-sizing: border-box;
+}
+
+.product-inner-info ul li {
+   float: left;
+   width: 100%;
+   line-height: normal;
+   margin-bottom: 5px;
+   padding: 0;
+}
+
+.product-inner-info ul li p {
+   margin: 0;
+}
+
+.product-inner-info ul li p span {
+   text-align: left;
+   float: left;
+}
+
+.product-inner-info ul li p span:nth-child(odd) {
+   width: 60%;
+}
+
+.product-inner-info ul li p span {
+   float: left;
+   width: 40%;
+   font-size: 12px;
+   font-weight: 600;
+}
+
+.search-product-grid .product-details .product-item-name span {
+   width: 100%;
+   float: left;
+   font-size: 12px;
+   color: #000;
+   margin: 4px 0;
+}
+
+.search-product-grid .product-details .product-box-pricing {
+   float: left;
+   width: 100%;
+   text-align: center;
+}
+
+.search-product-grid .product-details .product-box-pricing span {
+   font-size: 24px;
+   font-weight: bold;
+}
+
+.search-product-grid .product-details .product-box-pricing {
+   float: left;
+   width: 100%;
+   text-align: center;
+   margin: 9px 0;
+}
+
+.search-product-grid .product-details .product-box-action {
+   width: 100%;
+   clear: both;
+   margin: 0 auto;
+   display: inline-block;
+   max-width: 140px;
+   margin: 6px 0;
+}
+
+.product-slide-button {
+   position: absolute;
+   top: 0;
+   right: 0;
+   z-index: 1;
+}
+
+.product-slide-button .trigger-info {
+   float: left;
+   margin: 5px;
+   font-size: 0;
+
+}
+.product-slide-button .trigger-info:focus{outline: none;}
+
+.product-slide-button .trigger-info:before {
+   float: left;
+   height: 15px;
+   width: auto;
+   font-size: 44px;
+   line-height: 13px;
+   letter-spacing: -3px;
+   content: '\2807';
+   transform: rotate(270deg);
+}
+
+.product-details .product-box-action label {
+   font-size: 16px;
+   font-weight: 400;
+}
+
+.grid-paginatin {
+   float: left;
+   width: 100%;
+   clear: both;
+   margin-bottom: 10px;
+}
+
+.grid-paginatin ul {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+   text-align: right;
+   float: right;
+   width: auto;
+}
+
+.grid-paginatin ul li a {
+   line-height: normal;
+   font-size: 16px;
+   padding: 8px;
+   width: 100%;
+   float: left;
+   box-sizing: border-box;
+   transition: 0.3s;
+}
+
+.grid-paginatin ul li {
+   display: inline-block;
+   min-width: 35px;
+   text-align: center;
+   min-height: 35px;
+   vertical-align: middle;
+   border: 1px solid #e8e8e8;
+   margin: 0 1px;
+   padding: 0;
+}
+
+
+.grid-paginatin ul li.grid-next a,
+.grid-paginatin ul li.grid-previous a {
+   float: left;
+   width: 100%;
+   height: auto;
+   text-indent: -9999px;
+}
+
+.grid-paginatin ul li.grid-next a:before,
+.grid-paginatin ul li.grid-previous a:before {
+   content: '\e617';
+   font-family: 'luma-icons';
+   font-size: 18px !important;
+   text-indent: 0px;
+   float: left;
+}
+.grid-paginatin ul li.grid-previous a:before {
+   transform: rotate(180deg);
+   -webkit-transform: rotate(180deg);
+   -moz-transform: rotate(180deg);
+   -o-transform: rotate(180deg);
+   -ms-transform: rotate(180deg);
+}
+
+section.compare-product {
+   float: left;
+   width: 100%;
+   clear: both;
+}
+
+section.compare-product .diamonds-details {
+   float: left;
+   width: 100%;
+}
+
+.compare-info {
+   float: left;
+   width: 100%;
+   margin-bottom: 20px;
+}
+
+.compare-info .responsive-table {
+   overflow: auto;
+}
+
+.compare-info table {
+   width: 100%;
+   border-spacing: 0;
+   border-collapse: collapse;
+   white-space: nowrap;
+   table-layout: fixed;
+}
+
+.compare-info table tr:nth-child(odd) {
+   background-color: #F2F2F2;
+}
+
+.compare-info table tr:nth-child(even) {
+   background-color: #E6E6E6;
+}
+
+.compare-info th,
+.compare-info tr,
+.compare-info td {
+   text-align: center;
+   border: 1px solid #e8e8e8;
+   padding: 20px;
+   vertical-align: middle;
+}
+
+.compare-info tbody tr>td:nth-child(1) {
+   min-width: 180px;
+}
+
+.compare-info tbody tr>td:nth-child(1) {
+   min-width: 180px;
+   font-size: 18px;
+   color: #000;
+}
+
+.compare-info tbody tr td {
+   height: 24px;
+   vertical-align: middle;
+}
+
+.compare-product .compare-info table tr:nth-child(even) {
+   background-color: #f2f2f2;
+}
+
+
+/*10-23-18 LIVE CSS START HERE*/
+
+.shape-container {
+   float: left;
+   width: 100%;
+   clear: both;
+   margin-bottom: 0px;
+}
+
+
+/*10-23-18 LIVE CSS END HERE*/
+
+
+/*DIAMONDS WITH SEPECIFICATIONS START*/
+
+.with-specification .diamonds-preview {
+   width: 430px;
+}
+
+.with-specification .diamonds-details {
+   width: calc(100% - 430px);
+   float: left;
+}
+
+.specification-title {
+   width: 100%;
+   background: #e8e8e8;
+   display: table;
+   vertical-align: middle;
+   padding: 16px 20px;
+   box-sizing: border-box;
+}
+
+.specification-title h2 {
+   display: table-cell;
+   padding: 0;
+   margin: 0;
+   font-size: 20px;
+   color: #000;
+}
+
+.specification-title h4 {
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+   vertical-align: middle;
+   text-align: right;
+   text-align: right;
+   float: right;
+}
+
+.specification-title h4 a {
+   font-size: 16px;
+   font-weight: normal;
+   position: relative;
+   padding-right: 20px;
+   top: 0;
+   vertical-align: middle;
+}
+
+.specification-title h4 a:after {
+   content: '';
+   /*background: url(../images/spirit-img.png);
+   width: 20px;
+   height: 20px;
+   display: inline-block;
+   background-position: 190px 62px;
+   position: absolute;
+   top: 0;
+   right: 0;*/
+}
+
+.specification-info {
+   float: left;
+   width: 100%;
+}
+
+.specification-info ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   float: left;
+   width: 100%;
+}
+
+.specification-info ul li {
+   float: left;
+   width: 100%;
+   clear: both;
+   padding: 11px 20px;
+   box-sizing: border-box;
+   margin-bottom: 0;
+}
+
+.specification-info ul li div,
+.specification-info ul li div {
+   float: left;
+   width: 50%;
+}
+
+.specification-info ul li .diamonds-info p,
+.specification-info ul li .diamonds-details-title p {
+   padding: 0;
+   margin: 0;
+   font-size: 16px;
+   color: #000;
+}
+
+.specification-info ul li .diamonds-info {
+   padding: 0;
+   margin: 0;
+   text-align: right;
+}
+
+.specification-info ul li:nth-child(even) {
+   background: #f8f8f8;
+}
+
+.diamond-info h2 span {
+   font-size: 20px;
+   margin: 0;
+   line-height: normal;
+}
+
+.diamond-grade {
+   display: table;
+   vertical-align: middle;
+   margin-left: -20px;
+   margin-right: -20px;
+   background: #f7f7f7;
+   padding: 17px 20px;
+   margin-bottom: -28px;
+}
+
+.grade-logo {
+   display: table-cell;
+   vertical-align: middle;
+}
+
+.grade-info {
+   display: table-cell;
+   vertical-align: middle;
+   text-align: left;
+   padding-left: 15px;
+}
+
+.grade-info p {
+   font-size: 16px;
+   color: #626262;
+   line-height: 24px;
+   margin-bottom: 0;
+}
+
+.product-thumb {
+   width: 100%;
+   display: table;
+   vertical-align: middle;
+   float: left;
+}
+
+.product-thumb .thumg-img {
+   margin-right: 5px;
+   float: left;
+}
+
+.requested-form {
+   float: left;
+   width: 100%;
+   padding: 20px;
+   box-sizing: border-box;
+}
+
+.requested-form h2 {
+   margin: 0;
+   padding: 0;
+   font-size: 30px;
+   color: #000;
+}
+
+.requested-form p {
+   padding: 0;
+   margin: 0;
+   margin-top: 10px;
+   font-size: 18px;
+   color: #000;
+}
+
+.diamond-request-form .form-field label {
+   margin: 20px 0;
+   position: relative;
+   display: inline-block;
+   width: 100%;
+}
+
+.diamond-request-form .form-field span {
+   padding: 10px;
+   pointer-events: none;
+   position: absolute;
+   left: 0;
+   top: 0;
+   transition: 0.2s;
+   transition-timing-function: ease;
+   transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+   opacity: 0.5;
+   padding-left: 0;
+   padding-bottom: 4px;
+}
+
+.diamond-request-form .form-field input {
+   padding: 10px;
+}
+
+.diamond-request-form .form-field span.moveUp {
+   transform: translateY(-90%);
+}
+
+.diamond-request-form .form-field {
+   float: left;
+   width: 100%;
+   clear: both;
+   max-width: 465px;
+   padding-left: 25px;
+   box-sizing: border-box;
+}
+
+.diamond-request-form .form-field label input {
+   width: 100%;
+   border: 0;
+   border-bottom: 1px solid #9f9f9f;
+   box-sizing: border-box;
+   padding: 0;
+   height: 38px;
+   font-size: 16px;
+}
+
+.diamond-request-form .form-field label input:focus,
+.diamond-request-form .form-field label textarea:focus {
+   outline: none;
+   box-shadow: none;
+}
+
+.diamond-request-form .form-field label textarea {
+   width: 100%;
+   max-width: 100%;
+   max-height: 150px;
+   min-height: 80px;
+   padding: 10px;
+   box-sizing: border-box;
+   font-family: 'Lato', sans-serif;
+   font-size: 18px;
+   line-height: 20px;
+}
+
+.diamond-request-form .form-field label textarea:focus {
+   outline: none;
+}
+
+.diamond-request-form .form-field label textarea {
+   border: 0;
+   border-bottom: 1px solid #9f9f9f;
+   resize: none;
+   padding-left: 0;
+}
+
+.prefrence-area {
+   float: left;
+   width: 100%;
+}
+
+.prefrence-area ul {
+   float: right;
+   margin: 0;
+   padding: 0;
+}
+
+.prefrence-area ul li {
+   float: left;
+   list-style: none;
+   margin: 0 10px;
+   padding: 0;
+   position: relative;
+}
+
+.prefrence-area p {
+   float: left;
+   margin: 0;
+}
+
+.diamond-request-form .form-field .prefrence-area label {
+   float: left;
+   width: auto;
+   margin: 0;
+   padding-left: 30px;
+}
+
+.diamond-request-form .form-field .prefrence-area input {
+   float: left;
+   position: absolute;
+   left: 0;
+   top: 0;
+   min-width: 1em;
+   width: 100%;
+   height: 100%;
+   z-index: 2;
+   opacity: 0;
+   margin: 0;
+   padding: 0;
+   cursor: pointer;
+   box-sizing: border-box;
+   padding: 0;
+}
+
+.diamond-request-form .form-field .prefrence-area label:after,
+.diamond-request-form .form-field .prefrence-area label:before {
+   content: '';
+   border: 2px solid #9f9f9f;
+   width: 16px;
+   height: 16px;
+   float: left;
+   border-radius: 50%;
+   position: absolute;
+   left: 0;
+   top: 0;
+}
+
+.diamond-request-form .form-field .prefrence-area input:checked~label:before {
+   right: 0;
+   left: 0;
+   text-align: center;
+   transform: scale(0.6);
+   border-color: transparent;
+}
+
+.prefrence-action {
+   float: left;
+   width: 100%;
+   clear: both;
+   margin-top: 10px;
+   text-align: left;
+}
+
+.prefrence-action .preference-btn {
+   border: 0;
+   font-size: 20px;
+   padding: 10px 40px;
+   margin: 0 3px;
+}
+
+.prefrence-action .preference-btn.btn-cencel {
+   background: #e5e5e5;
+   color: #000;
+}
+
+
+/*DIAMONDS WITH SEPECIFICATIONS END*/
+
+
+/*DIAMONDS PAGE START*/
+
+.diamond-page .specification-title {
+   background: transparent;
+   padding-top: 0;
+}
+
+.diamond-page .diamond-desc {
+   padding: 20px;
+}
+
+.diamond-page .diamond-desc p {
+   padding: 0;
+   margin: 0;
+   font-size: 16px;
+   color: #000;
+}
+
+.intro-field {
+   float: left;
+   width: 100%;
+}
+
+.intro-field ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   width: 50%;
+   float: left;
+   box-sizing: border-box;
+}
+
+.intro-field ul li {
+   display: table;
+   vertical-align: middle;
+   width: 100%;
+   padding: 9px 10px;
+   box-sizing: border-box;
+   padding-left: 0;
+}
+
+.intro-field ul li p,
+.intro-field ul li strong {
+   display: table-cell;
+   font-size: 18px;
+}
+
+.intro-field ul:nth-child(1) {
+   border-right: 1px solid #9f9f9f;
+}
+
+.intro-field ul:nth-child(2) li {
+   padding-left: 40px;
+}
+
+.intro-field ul li p {
+   text-align: right;
+}
+
+.diamond-page .diamond-request-form .form-field {
+   max-width: 565px;
+}
+
+.intro-field ul:nth-child(2) li {
+   padding-left: 30px;
+}
+
+.intro-field ul:nth-child(1) li {
+   padding-right: 30px;
+}
+
+.product-controler {
+   float: left;
+   width: 100%;
+   clear: both;
+   margin-top: 30px;
+}
+
+.product-controler ul {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+}
+
+.product-controler ul li {
+   position: relative;
+}
+
+.product-controler ul li:before {
+   content: '';
+   font-family: 'luma-icons';
+   position: absolute;
+   width: 28px;
+   height: 28px;
+   position: absolute;
+   left: 0;
+   color: #fff;
+   font-size: 16px;
+   text-align: center;
+   line-height: 28px;
+}
+
+.product-controler ul li a {
+   padding-left: 40px;
+   margin-top: 5px;
+   float: left;
+   line-height: normal;
+   text-decoration: none;
+   transition: 0.3s;
+}
+
+.product-controler ul li {
+   position: relative;
+   margin-bottom: 22px;
+   float: left;
+   width: 50%;
+}
+
+.product-controler ul li:nth-child(1):before {
+   content: '\e62A';
+}
+
+.product-controler ul li:nth-child(2):before {
+   content: '\e60C';
+}
+
+.product-controler ul li:nth-child(3):before {
+   content: '\e61d';
+}
+
+.product-controler ul li:nth-child(4):before {
+   content: '\e624';
+}
+
+.product-controler ul li:nth-child(5):before {
+   content: '\e612';
+}
+
+.diamond-request-form .form-field .diamond-action span {
+   box-sizing: border-box;
+   position: static;
+   font-size: 30px;
+   opacity: 1;
+   font-weight: 600;
+   float: left;
+   width: 100%;
+   pointer-events: all;
+}
+
+.diamond-page .diamond-action button.addtocart {
+   float: left;
+   clear: both;
+   font-size: 26px;
+   text-transform: capitalize;
+   border: 0;
+   padding: 10px 30px;
+   cursor: pointer;
+   margin-top: 10px;
+}
+
+.diamond-action {
+   float: left;
+   width: 100%;
+   clear: both;
+   margin-top: 0px;
+}
+
+/*.diamond-page .specification-title h4 a:after {
+   content: '\e623';
+   font-family: 'luma-icons';
+}
+*/
+
+/*DIAMONDS PAGE END*/
+
+
+/*DIAMONDS PRINT START*/
+
+.print-header {
+   background: #1979c3;
+   float: left;
+   width: 100%;
+}
+
+.header-container {
+   display: table;
+   width: 100%;
+}
+
+.print-header h2,
+.print-header h4 {
+   margin: 0;
+   padding: 0;
+}
+
+.print-header .header-title,
+.print-header .header-date {
+   display: table-cell;
+   text-align: left;
+   vertical-align: middle;
+   color: #fff;
+}
+
+.print-header .header-date {
+   text-align: right;
+}
+
+.print-header h2 {
+   font-size: 30px;
+   font-weight: 400;
+}
+
+.print-header h4 {
+   font-size: 20px;
+   font-weight: 400;
+}
+
+.header-container {
+   display: table;
+   width: 100%;
+   padding: 22px 0;
+   max-width: 1170px;
+   margin: 0 auto;
+}
+
+.diamonds-print-preview {
+   float: left;
+   width: 100%;
+   background: #f7f7f7;
+   border: 1px solid #e8e8e8;
+   box-sizing: border-box;
+   padding: 20px;
+   margin-top: 40px;
+}
+
+.diamonds-print-preview .diamond-info-one,
+.diamonds-print-preview .diamond-info-two {
+   float: left;
+   width: 50%;
+   text-align: center;
+   padding: 20px;
+   box-sizing: border-box;
+}
+
+.diamonds-print-preview .print-info {
+   float: left;
+   width: 100%;
+   text-align: center;
+   margin: 22px 0;
+}
+
+.diamonds-print-preview .print-info span {
+   font-size: 20px;
+   color: #000;
+}
+
+.diamonds-print-preview .print-info p {
+   font-size: 24px;
+   color: #000;
+   font-weight: 600;
+}
+
+.diamonds-print-preview .print-info p span {
+   font-size: 24px;
+   color: #1979c3;
+}
+
+.diamonds-grade-info {
+   display: table-cell;
+   vertical-align: middle;
+}
+
+.diamonds-grade {
+   display: table-cell;
+   vertical-align: middle;
+   width: 170px;
+}
+
+.print-diamond-certifications {
+   float: left;
+   width: 100%;
+   clear: both;
+   background: #e8e8e8;
+   padding: 30px;
+   box-sizing: border-box;
+   margin-top: 40px;
+   border: 1px solid #e8e8e8;
+   margin-bottom: 40px;
+}
+
+.diamonds-grade-info p {
+   margin: 0;
+   padding: 0;
+   font-size: 18px;
+   color: #000;
+}
+
+.print-details {
+   float: left;
+   width: 100%;
+   clear: both;
+   border: 1px solid #e8e8e8;
+}
+
+.diamond-title {
+   background: #1979c3;
+   display: table;
+   width: 100%;
+   vertical-align: middle;
+   padding: 30px 20px;
+   box-sizing: border-box;
+}
+
+.diamond-title h2 {
+   color: #fff;
+   font-size: 32px;
+   font-weight: 400;
+   margin: 0;
+   padding: 0;
+}
+
+.diamond-title p {
+   color: #fff;
+   font-size: 18px;
+   margin: 0;
+   padding: 0;
+   margin-top: 8px;
+}
+
+.diamond-title .diamond-name {
+   display: table-cell;
+   vertical-align: middle;
+}
+
+.diamond-title .diamond-price {
+   display: table-cell;
+   vertical-align: middle;
+}
+
+.diamond-title .diamond-price span {
+   font-size: 30px;
+   color: #fff;
+}
+
+.diamond-inner-details {
+   float: left;
+   width: 100%;
+}
+
+.diamond-inner-details ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+.diamond-inner-details ul li {
+   float: left;
+   width: 100%;
+   padding: 19px 30px;
+   box-sizing: border-box;
+   border-bottom: 1px solid #e8e8e8;
+}
+
+.diamond-inner-details ul li div {
+   float: left;
+   width: 50%;
+   text-align: left;
+}
+
+.diamond-inner-details ul li .diamond-quality {
+   text-align: right;
+}
+
+.diamond-specifications p {
+   font-size: 18px;
+   color: #000;
+   font-weight: 500;
+   margin: 0;
+   padding: 0;
+}
+
+.diamond-inner-details ul li:last-child {
+   border: 0;
+}
+
+
+/*DIAMONDS PRINT END*/
+
+
+/*24-10-18 start*/
+
+.product-details .product-box-action .state label:before {
+   content: '';
+   width: 16px;
+   height: 16px;
+   display: block;
+   box-sizing: border-box;
+   z-index: 0;
+   position: absolute;
+   left: 0;
+   top: 4px;
+   background-color: transparent;
+   border-radius: 4px;
+}
+
+.product-details .product-box-action .state label:after {
+   content: '';
+   width: 16px;
+   height: 16px;
+   display: block;
+   box-sizing: border-box;
+   border-radius: 0;
+   z-index: 0;
+   position: absolute;
+   left: 0;
+   top: 4px;
+   background-color: transparent;
+   border-radius: 4px;
+}
+
+.product-details .product-box-action input[type="checkbox"] {
+   position: absolute;
+   left: 0;
+   top: 0;
+   min-width: 1em;
+   width: 100%;
+   height: 100%;
+   z-index: 2;
+   opacity: 0;
+   margin: 0;
+   cursor: pointer;
+   box-sizing: border-box;
+   padding: 0;
+}
+
+.product-details .product-box-action {
+   position: relative;
+}
+
+.change-view-result ul li.grid-view a.active:before {
+   background-color: #1979c3;
+   background-position: -371px -5px;
+}
+
+.change-view-result ul li.list-view a:before {
+   content: '\e609';
+   background-color: #e8e8e8;
+}
+
+.change-view-result ul li.list-view a.active:before {
+   background-position: -299px -3px;
+   content: '\e609';
+}
+
+.searching-result .view-or-search-result .change-view-result .grid-view-sort {
+   float: left;
+}
+
+.searching-result .view-or-search-result .change-view-result .grid-view-sort select {
+   float: left;
+   width: auto;
+   margin-right: 10px;
+}
+
+.filter-main .slider_wrapper {
+   padding: 10px 10px 0;
+   width: 100%;
+   text-align: center;
+}
+
+.searching-result .view-or-search-result .change-view-result .grid-view-sort select:focus {
+   box-shadow: none;
+}
+
+
+/*24-10-18 end*/
+
+
+/*25-10-18 start*/
+
+.product-box-pricing a {
+   text-decoration: none;
+}
+
+.clarity-filter.shape-bg {
+   margin-bottom: 0px;
+}
+
+#search-diamonds-form select#gemfind_diamond_origin:focus {
+   box-shadow: none;
+}
+
+.search-details .table .table-sort:after,
+.search-details .table .table-sort:before {
+   content: '';
+   width: auto;
+   display: inline-block;
+   background-position: -248px -45px;
+   height: 100%;
+   position: absolute;
+   top: 15px;
+   margin-left: 4px;
+   content: '\e618';
+   font-family: 'luma-icons';
+   right: 4px;
+   font-size: 10px;
+}
+
+.search-details .table .table-sort:before {
+   content: '\e607';
+   top: 24px;
+   height: auto;
+}
+
+.search-details .table thead tr th.table-sort {
+   position: relative;
+   cursor: pointer;
+}
+
+.search-details .table tbody tr td {
+   border-right: 1px solid #ddd;
+   border-top: 0;
+   text-align: center;
+}
+
+.search-details .table tbody tr td:last-child {
+   border-right: 0;
+}
+
+.search-details .table tbody tr th {
+   border-top: 0;
+   border-right: 1px solid #ddd;
+}
+.search-details .table thead tr th.table-sort.ASC:after {
+   opacity: 0;
+}
+
+.search-details .table .table-sort.DESC:before {
+   opacity: 0;
+}
+
+.diamondvideo iframe {
+   width: 100%;
+   height: 465px;
+   border: 0;
+}
+
+.diamond-page button {
+   box-shadow: none;
+   border-radius: 0;
+   line-height: normal;
+   font-weight: 500;
+   transition: 0.3s;
+}
+
+.diamond-page button:hover {
+   opacity: 0.8;
+}
+
+.search-details .table tbody tr td:nth-child(2) img {
+   display: inline-block;
+   text-align: left;
+   float: left;
+}
+
+.search-details .table tbody tr td:nth-child(2) {
+   text-align: right;
+   min-width: 100px;
+}
+
+.diamond-page .search-details {
+   float: left;
+   width: 100%;
+   clear: both;
+}
+
+.diamond-page .specification-title h2 {
+   font-size: 34px;
+   font-weight: 500;
+}
+
+.diamond-page .diamond-data .diamond-desc {
+   padding-top: 0;
+}
+
+
+/*25-10-18 start*/
+
+
+/*26-10-18 start*/
+
+.filter-for-shape ul li:nth-child(1),
+.color-filter ul li:nth-child(1),
+.filter-details .polish-depth ul li:nth-child(1) {
+   margin-left: 0;
+}
+
+.filter-advanced .filter-main .filter-for-shape {
+   padding-left: 0;
+}
+
+.filter-advanced .filter-main.filter-alignment-left {
+   padding-left: 0;
+}
+
+.filter-advanced .filter-advanced-main select {
+   max-width: 300px;
+   display: none;
+}
+
+.grid-paginatin .result-bottom {
+   float: left;
+   width: auto;
+}
+
+.d-container select,
+.search-details select {
+   background: url(../images/dropdown-arrow.png);
+   background-repeat: no-repeat;
+   background-position: 98% center;
+   background-size: 14px;
+   position: relative;
+}
+
+.search-details select {
+   background-position: 94% center;
+}
+
+.grid-paginatin ul li a:hover {
+   text-decoration: none;
+}
+
+
+/*26-10-18 end*/
+
+
+/*29-10-18 start*/
+
+.diamond-page .specification-title h4 a {
+   text-decoration: none;
+}
+
+
+
+.grid-paginatin ul li.grid-next a:hover,
+.grid-paginatin ul li.grid-previous a:hover {
+   background-color: transparent;
+}
+
+.search-details .table tbody tr td a {
+   text-decoration: none;
+   padding: 2px;
+}
+
+
+.SumoSelect>.CaptionCont>label>i {
+   font-style: normal;
+}
+
+.SumoSelect>.CaptionCont>label>i:before {
+   font-family: 'luma-icons';
+   font-size: 14px;
+   background-image: none !important;
+   content: '\e607';
+   float: left;
+   margin-left: 5px;
+   margin-top: 2px;
+}
+
+.SumoSelect>.CaptionCont>label>i {
+   background-image: none !important;
+   margin: 0;
+   height: auto !important;
+   width: auto !important;
+}
+
+.filter-advanced .SumoSelect>.CaptionCont>label {
+   border-left: 1px solid #9f9f9f;
+   height: 23px;
+   margin-top: 8px;
+   padding-left: 5px;
+   cursor: pointer;
+}
+
+.certificate-div .SumoSelect>.CaptionCont>label>i:before {
+   margin-left: 10px;
+}
+
+.filter-advanced .SumoSelect:focus>.CaptionCont,
+.SumoSelect:hover>.CaptionCont,
+.SumoSelect.open>.CaptionCont {
+   box-shadow: none;
+}
+
+.filter-advanced .SumoSelect>.CaptionCont {
+   position: relative;
+   border: 1px solid #9f9f9f;
+   min-height: 14px;
+   background-color: transparent;
+   border-radius: 0;
+   margin: 0;
+   padding: 8px 8px;
+   cursor: pointer;
+}
+
+.filter-advanced .SumoSelect>.CaptionCont>span.placeholder {
+   color: #010101;
+   font-style: normal;
+   font-size: 16px;
+   cursor: pointer;
+}
+
+.filter-advanced .SumoSelect>.CaptionCont>span {
+   font-size: 16px;
+   cursor: pointer;
+}
+
+.filter-advanced .SumoSelect {
+   float: left;
+   width: 50%;
+   padding: 0 5px;
+   box-sizing: border-box;
+}
+
+.filter-advanced {
+   float: left;
+   width: 100%;
+   clear: both;
+   margin-top: 0;
+   margin-left: 0;
+   margin-right: 0;
+   padding-top: 10px;
+}
+
+.filter-advanced .SumoSelect.open>.optWrapper {
+   width: calc(83% + 80px);
+   box-sizing: border-box;
+   margin-top: 5px;
+   margin-left: 5px;
+}
+
+.filter-advanced .SumoSelect:focus>.CaptionCont,
+.filter-advanced .SumoSelect:hover>.CaptionCont,
+.filter-advanced .SumoSelect.open>.CaptionCont {
+   box-shadow: none;
+   border: 1px solid #9f9f9f;
+}
+
+.filter-advanced .SumoSelect>.optWrapper>.options li.opt {
+   margin-bottom: 0;
+}
+.filter-advanced .SumoSelect>.optWrapper>.options li.opt.selected{
+   background: #ccc;
+}
+
+.sumo_gemfind_diamond_origin li.opt:nth-child(1) {
+   border-color: #ddd !important;
+}
+
+
+/*29-10-18 end*/
+
+
+/*30-10-18 start*/
+
+.search-details .table tbody tr td.view-data {
+   position: relative;
+}
+
+.search-details .table tbody tr td.view-data a {
+   display: inline-block;
+   margin: 0 auto;
+   text-align: center;
+   width: 100%;
+   padding: 0;
+}
+
+
+.prefrence-action .preference-btn span {
+   position: static;
+   opacity: 1;
+}
+
+.grid-paginatin a#compare-main {
+   clear: both;
+   float: none;
+   margin: 10px 0;
+   padding: 8px 13px;
+   text-decoration: none;
+}
+
+.grid-paginatin a#compare-main:hover {
+   text-decoration: none;
+}
+
+.product-details .product-box-action input[type="checkbox"]:checked~.state label:after {
+   transform: scale(3.5);
+   opacity: 0;
+   transition: all 0.3s ease;
+   border-radius: 50%;
+}
+
+.product-details .product-box-action input[type="checkbox"]:checked~.state label:before {
+   opacity: 1;
+}
+
+.grid-paginatin .btn-compare {
+   width: 33%;
+   float: left;
+   text-align: left;
+   margin: 8px 0;
+}
+
+.grid-paginatin .pagination-div {
+   width: 33%;
+   float: right;
+}
+
+.grid-paginatin .page-checked {
+   width: 33%;
+   float: left;
+   text-align: center;
+   display: inline-block;
+}
+
+.grid-paginatin .page-checked .result-bottom {
+   width: 100%;
+   text-align: center;
+}
+
+
+/*30-10-18 end*/
+
+
+/*31-10-18 start*/
+
+.diamond-page .grid-paginatin .btn-compare {
+   display: none;
+}
+
+.diamond-page .grid-paginatin .page-checked .result-bottom {
+   text-align: left;
+}
+
+.diamond-request-form .has-datepicker--icon:before {
+   width: 22px;
+   height: 24px;
+   position: absolute;
+   right: 0;
+   background-position: -41px -72px;
+   background-repeat: no-repeat;
+   cursor: pointer;
+   bottom: 5px;
+   content: '\e612';
+   font-family: 'luma-icons';
+   font-size: 21px;
+   color: #000;
+}
+
+.ui-datepicker .ui-datepicker-calendar .ui-datepicker-today a {
+   color: #fff;
+}
+
+.ui-datepicker .ui-datepicker-calendar td .ui-state-hover,
+.ui-datepicker .ui-datepicker-calendar .ui-state-active {
+   background: #1979c3;
+   color: #fff;
+}
+
+.compare-product table thead tr td {
+   border-color: #f7f7f7;
+   border-bottom-color: #e8e8e8;
+}
+
+.compare-product .compare-info table tr:nth-child(odd),
+.compare-product .compare-info table tr:nth-child(even) {
+   background-color: #f7f7f7;
+}
+
+.compare-info table tbody tr th:nth-child(1) {
+   background: #f1f1f1;
+   text-align: left;
+   max-width: 60px;
+   white-space: normal;
+   word-break: break-all;
+   max-width: 90px;
+   color: #000;
+}
+
+.compare-product table thead tr td img {
+   box-shadow: 0px 0px 50px 10px #e5e5e5;
+}
+
+.compare-info table tbody tr th:nth-child(1) a {
+   background: transparent;
+   text-indent: -9999px;
+   color: rgba(0, 0, 0, 0);
+   position: relative;
+   float: left;
+   margin-right: 10px;
+   margin-top: 2px;
+}
+
+.compare-info table tbody tr th:nth-child(1) a:before {
+   content: 'X';
+   width: 16px;
+   height: 16px;
+   display: inline-block;
+   border-radius: 50%;
+   float: left;
+   color: #fff;
+   opacity: 1;
+   text-indent: 0;
+   font-size: 10px;
+   line-height: 16px;
+   text-align: center;
+}
+
+
+.compare-product .compare-info table .compare-actions td {
+   border-color: #f7f7f7;
+   padding: 20px;
+}
+
+.compare-actions .delete-row {
+   height: 36px;
+   width: 41px;
+   display: inline-block;
+   margin: 0 5px;
+   transition: all 500ms cubic-bezier(0, 0.4, 0.51, 1.35);
+   font-family: 'luma-icons';
+   text-align: center;
+}
+
+.compare-actions .delete-row:before {
+   content: '\e604';
+   font-size: 24px;
+   text-align: center;
+   display: inherit;
+}
+
+.compare-actions .view-product {
+   border: 0;
+   font-size: 22px;
+   padding: 3px 12px;
+   cursor: pointer;
+   margin: 0 5px;
+   text-decoration: none;
+}
+
+
+.compare-actions .delete-row:hover {
+   background-position: -149px -72px;
+}
+
+.actions-row {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 10px 0;
+}
+
+.cls-for-hide {
+   display: none;
+}
+
+.change-view-result .grid-view-sort .optWrapper ul li.opt, .change-view-result .sumo_pagesize .optWrapper ul li.opt {
+   width: 100%;
+   text-align: left;
+   float: left;
+   box-sizing: border-box;
+}
+
+.change-view-result .grid-view-sort .optWrapper ul {
+   
+   height: auto;
+}
+
+.change-view-result .grid-view-sort .SumoSelect {
+   width: auto;
+}
+
+
+/*31-10-18 end*/
+
+
+/*1-11-18 start*/
+
+.price-main .price-left,
+.price-main .price-right {
+   position: relative;
+   left: 0;
+}
+
+.price-main .price-left span.currency-icon,
+.price-main .price-right span.currency-icon {
+   position: absolute;
+   left: 7px;
+   top: 33px;
+   pointer-events: none;
+}
+
+.price-main .price-right {
+   right: 0px;
+   left: auto;
+}
+
+.price-main .price-right span.currency-icon {
+   left: auto;
+   /*right: 84px;*/
+   right: 35px;
+   min-width: 40px;
+}
+
+.price-main .price-right input {
+   margin-right: 30px;
+}
+
+.tableper-main .table-left {
+   position: relative;
+   left: 0;
+}
+
+.tableper-main .table-left span.currency-icon {
+   position: absolute;
+   left: 56px;
+   top: 33px;
+   pointer-events: none;
+}
+
+.tableper-main .table-right {
+   right: -10px;
+   left: auto;
+}
+
+.tableper-main .table-right span.currency-icon {
+   position: absolute;
+   right: 9px;
+   top: 33px;
+   pointer-events: none;
+}
+
+.tableper-main .table-right input {
+   margin-right: 0px;
+}
+
+
+/*DEPTH SECTION START*/
+
+.depth-main .depth-left {
+   position: relative;
+   left: 0px;
+}
+
+.depth-main .depth-left span.currency-icon {
+   position: absolute;
+   left: 56px;
+   top: 33px;
+   pointer-events: none;
+}
+
+.depth-main .depth-right {
+   right: -10px;
+   left: auto;
+}
+
+.depth-main .depth-right span.currency-icon {
+   position: absolute;
+   right: 8px;
+   top: 32px;
+   pointer-events: none;
+}
+
+.depth-main .depth-right input {
+   margin-right: 0px;
+}
+
+
+/*DEPTH SECTION END*/
+
+.change-view-result .grid-view-sort .SumoSelect select {
+   display: none;
+}
+
+#search-diamonds .price-main.ui-slider .ui-slider-val.slider-left,
+#search-diamonds .price-main.ui-slider .ui-slider-val.slider-right {
+   text-align: right;
+   /*padding-left: 45px;*/
+}
+
+#search-diamonds .depth-main.ui-slider .ui-slider-val.slider-right,
+#search-diamonds .depth-main.ui-slider .ui-slider-val.slider-left,
+#search-diamonds .tableper-main.ui-slider .ui-slider-val.slider-left,
+#search-diamonds .tableper-main.ui-slider .ui-slider-val.slider-right {
+   padding-left: 0 !important;
+   padding-right: 21px !important;
+}
+
+
+/*1-11-18 end*/
+
+
+/*2-11-18 START*/
+
+
+/*PLACEHOLDER CSS KIT*/
+
+.diamond-forms textarea::-webkit-input-placeholder {
+   font-size: 16px;
+   color: #010101;
+   opacity: 0.5;
+}
+
+.diamond-forms textarea:-moz-placeholder {
+   font-size: 16px;
+   color: #010101;
+   opacity: 0.5;
+}
+
+.diamond-forms textarea::-moz-placeholder {
+   font-size: 16px;
+   color: #010101;
+   opacity: 0.5;
+}
+
+.diamond-forms textarea:-ms-input-placeholder {
+   font-size: 16px !important;
+   color: #010101;
+   opacity: 0.5;
+}
+
+.diamond-forms textarea::-ms-input-placeholder {
+   font-size: 16px;
+   color: #010101;
+   opacity: 0.5;
+}
+
+.diamond-forms textarea::placeholder {
+   font-size: 16px;
+   color: #010101;
+   opacity: 0.5;
+}
+
+.diamond-forms textarea:-ms-input-placeholder {
+   font-size: 16px !important;
+   color: #010101;
+   opacity: 0.5;
+}
+
+.diamond-forms input::placeholder {
+   font-size: 16px;
+   color: #010101;
+   opacity: 0.5;
+}
+
+.diamond-forms input:-ms-input-placeholder {
+   font-size: 16px !important;
+   color: #010101;
+   opacity: 0.5;
+}
+
+.diamond-forms input::-ms-input-placeholder {
+   font-size: 16px;
+   color: #010101;
+   opacity: 0.5;
+}
+
+.d-container select option:first-child {
+   color: rgba(1, 1, 1, 0.5);
+}
+
+
+/*PLACEHOLDER CSS KIT*/
+
+.prefrence-action button.preference-btn span {
+   padding-left: 10px;
+}
+
+.with-specification.diamond-page .diamond-specification .specification-title {
+   background: #e8e8e8;
+   padding-top: 16px;
+}
+
+.with-specification.diamond-page .specification-title h2 {
+   font-size: 20px
+}
+
+.with-specification.diamond-page .diamond-data .specification-title h2 {
+   font-size: 34px;
+}
+
+
+/*2-11-18 END*/
+
+
+/*5-11-18 START*/
+
+.filter-advanced .grid-view-sort .SumoSelect>.CaptionCont>label {
+   padding-left: 0;
+}
+
+.advance-right .certificate-div {
+   margin-left: -5px;
+   float: left;
+   width: 100%;
+}
+
+/* .advance-right .polish-depth {
+   margin-bottom: 64px;
+} */
+
+.grid-paginatin a#compare-main:hover {
+   opacity: 0.8;
+}
+
+.compare-product .diamonds-filter .filter-title {
+   display: block;
+   float: left;
+   width: 100%;
+}
+
+.compare-product .filter-title ul.filter-left {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+.compare-product .filter-title ul.filter-left li {
+   float: left;
+   margin-right: 40px;
+   margin-bottom: 0;
+}
+
+.compare-product .filter-title ul.filter-left li a {
+   font-size: 18px;
+   text-decoration: none;
+}
+
+.compare-product .filter-title ul.filter-left {
+   float: left;
+   width: 100%;
+   background: #e8e8e8;
+   padding: 20px 0;
+   padding-left: 35px;
+   box-sizing: border-box;
+}
+
+.compare-info .no_compare {font-size: 16px;padding-top: 16px;}
+.diamond-filter-title #navbar li.active a, .compare-product .filter-title ul.filter-left li.active a{color: #000022;}
+
+/*5-11-18 END*/
+
+
+/*6-11-18 START*/
+
+.SumoSelect>.optWrapper.isFloating>.options {
+   width: 100%;
+   height: 100%;
+}
+
+.diamonds-product-view .columns .column.main {
+   max-width: 100%;
+}
+.diamonds-product-view div#groupContainerDiv{
+  display: none !important;
+  }
+  .diamonds-product-view .form-main{display:none;}
+  .diamonds-product-view .search-details .table tbody tr th.table-selecter, .diamonds-product-view .search-product-grid .product-details .product-box-action, .diamonds-product-view .search-in-table {
+  position: relative;
+  display: none;
+  }
+  .diamonds-product-view .search-details .table thead tr > th.selector-head {
+  font-size: 0;
+  position: relative;
+  display: none;
+  }
+
+/*6-11-18 END*/
+
+
+/*12-11-18 START HERE*/
+
+.diamonds-search ._keyfocus *:focus,
+.diamonds-search input:not([disabled]):focus,
+.diamonds-search textarea:not([disabled]):focus,
+.diamonds-search select:not([disabled]):focus {
+   box-shadow: none;
+   outline: none;
+}
+
+.diamond-forms .note {
+   text-align: left;
+   font-size: 16px;
+   float: left;
+   margin-left: 23px;
+   box-sizing: border-box;
+   padding: 10px;
+   width: 565px;
+   margin-bottom: 10px;
+}
+
+
+/*12-11-18 END HERE*/
+
+
+/*22-11-18- START HERE*/
+.color-filter.fancy-overtone-filter ul li {
+   width: 7.8%;
+}
+.color-filter.fancy-color-filter ul li.active{color: rgba(0, 0, 0, 0);}
+.filter-details .fancy-color-filter ul li:before {
+}
+.filter-details .fancy-color-filter ul li {
+   color: rgba(0, 0, 0, 0);
+   width: 7.8%;
+}
+.filter-details .fancy-color-filter ul li:hover {
+   color: rgba(0, 0, 0, 0);
+}
+/*22-11-18- END HERE*/
+
+/*23-11-18- START HERE*/
+.loading-mask {
+   bottom: 0;
+   left: 0;
+   margin: auto;
+   position: fixed;
+   right: 0;
+   top: 0;
+   z-index: 100;
+   background: rgba(255,255,255,0.5);
+}
+.loading-mask .loader>p {
+   display: none;
+}
+.gemfind-loading-mask .loader.gemfind-loader {
+   background: url(../images/loader-2.gif);
+}
+.loading-mask.gemfind-loading-mask {
+   text-align: center;
+   left: 50%;
+   transform: translate(-50%, 0);
+   width: 100%;
+   height: 100%;
+   display: table;
+   display:none;
+}
+.gemfind-loading-mask .loader.gemfind-loader {
+   background-image: url(../images/loader-2.gif);
+   width: 100%;
+   height: 100%;
+   background-size: auto;
+   background-position: center;
+   text-align: center;
+   display: table;
+   vertical-align: middle;
+   background-repeat: no-repeat;
+}
+.product-slide-button .trigger-info:hover,
+.product-slide-button .trigger-info:hover:before,
+.change-view-result ul li a {
+   text-decoration: none;
+}
+/*23-11-18- END HERE*/
+.prefrence-area .mage-error{width: 100%; clear: both;}
+
+/*3-12-18 start here*/
+.filter-details .cut-main ul li{min-width:19%;}
+.ie9 .filter-details .cut-main ul li{min-width: auto;}
+.filter-details .fancy-color-filter ul li img {max-width: 30px;}
+.price-main .price-right input.slider-right{margin-right: 0;}
+#search-diamonds .ui-slider .ui-slider-val{width: 115px;}
+/*3-12-18 end here*/
+
+/*6-12-18 start here*/
+.search-in-table a {position: absolute;right: 40px;z-index: 1;font-weight: 900;font-size: 18px;top: 5px;text-decoration: none; visibility: hidden;}
+.search-in-table.executed a{visibility: visible;}
+/*6-12-18 end here*/
+
+/*18-12-18 start here*/
+.item-page {
+   display: inline-block;
+   width: auto;
+   float: left;
+}
+.item-page p.leftpp {
+   display: inline-block;
+   margin-top: 8px;
+}
+.number-of-search > p {margin-top: 0;font-size: 24px;}
+.item-page .sumo_pagesize{width: 80px;}
+.item-page .sumo_pagesize select#pagesize {visibility: hidden; display: none;}
+.filter-advanced .item-page .SumoSelect>.CaptionCont>label {padding-left: 0;}
+.item-page .SumoSelect>.CaptionCont>label>i:before {margin-left: 8px;}
+/*18-12-18 start here*/
+
+/*19-12-18start here*/
+#search-diamonds .ui-slider .depth-left .ui-slider-val,
+#search-diamonds .ui-slider .depth-right .ui-slider-val.slider-right,
+#search-diamonds .ui-slider .table-left .ui-slider-val,
+#search-diamonds .ui-slider .table-right .ui-slider-val {width: 75px;}
+#search-diamonds .carat-main.ui-slider .ui-slider-val,#search-diamonds .price-main.ui-slider .ui-slider-val{width: 65px;text-align: right;}
+/*19-12-18end here*/	
+
+/*28-12-18 start here*/
+.gridview-dir-div {
+   float: left;
+}
+.gridview-dir-div a {
+   color: rgba(0, 0, 0, 0);
+   position: relative;
+   float: left;
+   display: none;
+}
+.gridview-dir-div a:before {
+   content: '';
+   position: absolute;
+   left: 0;
+   top: 8px;
+   height: 24px;
+   width: 17px;
+   opacity: 1;
+   color: #000;
+   background-image: url(../images/asc-desc_arrow.png);
+       background-size: 4em;
+   background-repeat: no-repeat;
+}
+.gridview-dir-div #ASC:before{content: '';}
+.gridview-dir-div #DESC:before{content: '';    background-position: -40px -11px;}
+
+.gridview-dir-div a.active{display: block;}
+
+.diamonds-product-view .diamond-report p, .diamond-report .view_text{display: inline-block;}
+.diamonds-product-view iframe video{     max-width: 100% !important;    max-height: 100% !important; }
+.diamonds-product-view .dealerinfopopup .modal-inner-wrap {width: 380px;}
+.diamonds-product-view .internalusemodel .modal-inner-wrap {width: 380px;}
+.diamonds-product-view .dealer-info-section table, .diamonds-product-view .dealer-info-section table td{border: 1px solid;}
+.diamonds-product-view .dealerinfopopup .modal-footer, .diamonds-product-view .internalusemodel .modal-footer{display: none;}
+.diamonds-product-view #internaluseform button{margin-top: 10px;display: block}
+/*28-12-18 end here*/
+
+.diamonds-product-view .breadcrumbs ul li a {font-size: 18px;text-decoration: none;}
+.diamonds-product-view .breadcrumbs ul{padding-left: 0px;}
+.diamonds-product-view .breadcrumbs ul li a:before {content: '<';margin-right: 5px;}
+.product-video-icon{position: absolute;    top: 8px;    left: 0;    z-index: 1;}
+.filter-advanced-main.advance-left.video-filter-section{clear: both;}
+.change-view-result .SumoSelect > .optWrapper.isFloating > .options li.opt{    width: 100%;}
+span.videoicon:before {
+}
+table#result_table svg {
+   display: block;
+   margin: 0 auto;
+}
+span.videoicon {
+   position: relative;
+       display: inline-block;
+   min-width: 35px;
+   color: rgba(0, 0, 0, 0);
+   width: 30px;
+   overflow: hidden;
+}
+.internaluse, .dealerinfopopup {
+   display: inline-block;
+   width: 100%;
+   font-weight: 800;
+   color: #626262;
+margin-top: 5px;
+}
+.internalusemodel.modal-slide header, .dealerinfopopup.modal-slide header {
+/*    background: #e5e5e5;
+   margin-bottom: 10px;*/
+   padding-bottom: 8px;
+   padding-top: 8px;
+}
+.internalusemodel.modal-slide .modal-title, .dealerinfopopup.modal-slide .modal-title{
+   font-size: 18px;
+   font-weight: 500;
+   text-transform: uppercase;
+   border-bottom: none;
+   padding-bottom: 0px;
+}
+.internalusemodel.modal-slide header button, .dealerinfopopup.modal-slide header button {
+   padding: 10px;
+   background: #1979C3;
+   border-radius: 0;
+   line-height: 22px;
+}
+.internalusemodel.modal-slide header button:before, .dealerinfopopup.modal-slide header button:before {
+   color: #fff;
+   vertical-align: middle;
+}
+.internalusemodel.modal-slide .modal-inner-wrap, .dealerinfopopup.modal-slide .modal-inner-wrap {
+   border: 2px solid #1979C3;
+}
+.internalusemodel.modal-slide header button:hover, .dealerinfopopup.modal-slide header button:hover {
+   background: #1979C3;
+   opacity: 0.8;
+}
+.internalusemodel.modal-slide header button:hover:before, .dealerinfopopup.modal-slide header button:hover:before{color: #fff;}
+.internalusemodel.modal-slide .modal-content, .dealerinfopopup.modal-slide .modal-content {
+   padding-top: 10px;
+}
+.modal-popup.custom-modal.modal-slide._inner-scroll._show {
+   width: 600px;
+   margin: 0 auto;
+   left: 0px !important;
+}
+.modal-popup.custom-modal.modal-slide._inner-scroll .modal-inner-wrap {
+   height: auto;
+min-height: auto !important; 
+}
+.shape-flex {
+   display: flex;
+   justify-content: space-between;
+   align-items: stretch;
+   flex-wrap: wrap;
+}
+.shape-flex .filter-main{
+   width: 100%;
+   float: inherit;
+       flex: 0 0 100%;
+   max-width: 100%;
+}
+.shape-flex .filter-main .filter-for-shape{
+   height: 100%;
+   display: flex;
+}
+.shape-container.shape-flex .filter-main {
+   padding: 0;
+}
+.show-filter-info > i{padding-left: 10px; font-size: 18px;}
+.show-filter-info:hover{cursor: pointer;}
+
+/* #show-filter-info {
+ position: fixed;
+ float: left;
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%, -50%);
+} */
+#show-filter-info .close{margin-top: -16px;margin-right: -16px;padding: 4px 10px 6px 10px;background: #000;opacity: 1;color: #fff;}
+#show-filter-info .modal-content{border-radius: 0px}
+#show-filter-info .modal-header{border-bottom: 0px;}
+/* .diamond-filter-title .filter-left .show-filter-info > i{color: #fff;}
+.diamond-filter-title .filter-left li.active .show-filter-info > i{color:#5e4c28;}
+.filter-details .show-filter-info > i{color: #c0b297;} */
+#show-filter-info .modal-dialog{top: 50%; transform: translateY(-50%);}
+.popup-Diamond-Table {
+   width: 97%;
+   margin: 0 auto;
+}
+.list-unstyled {
+   padding-left: 0;
+   list-style: none;
+}
+.popup-Diamond-Table ol li {
+   width: 19%;
+   display: inline-block;
+   text-align: center;
+   height: 80px;
+}
+.popup-Diamond-Table ol li .popup-Dimond-Sketch {
+   display: block;
+   height: 36px;
+   margin-top: 20px;
+   line-height: 34px;
+}
+#show-filter-info {overflow-y: hidden;}
+.filter-left.kendana-filter{width: 80% !important}
+ul.compare-filter-right {float: right; width: 20%; background: #e8e8e8; padding: 22px 31px 19px 0; box-sizing: border-box; text-align: right; margin-bottom: 0; } 
+ul.compare-filter-right li{line-height: normal; margin: 0; }
+ul.compare-filter-right li a{color: #000022; font-size: 18px; text-decoration: none;} 
+.diamonds-product-view .grid-view-sort{display: none;}
+.gemfind_powered_by{float: right;width: 100%;text-align: right;display: block;margin-bottom: 30px;padding: 0 2%; color: #000}
+.gemfind_powered_by a{color: inherit;}
+.gemfind_powered_by a:hover {text-decoration: none;}
+/*RESPONSIVE CSS START HERE*/
+@media only screen and (max-width: 1260px) {
+   .filter-details .cut-main ul li {min-width: 20%;}
+}
+
+@media only screen and (max-width: 1100px) {
+   .search-details .table-responsive {
+       overflow: auto;
+   }
+   .grid-product-listing {
+       margin-left: 0;
+   }
+   .btn-compare {
+       float: left;
+       width: 100%;
+       clear: both;
+       margin: 10px 0;
+   }
+   .search-details .table tbody tr td{
+   white-space: normal;
+   word-break: inherit;
+}
+.filter-details .fancy-color-filter ul li{width: 7.7%;}
+.color-filter.fancy-overtone-filter ul li {width: 7.7%;}
+.filter-details .cut-main ul li {min-width: 32%;}
+.number-of-search > p{font-size: 18px;}
+
+/* product grid */
+
+.search-details .table tbody tr th.table-selecter{
+   width: 28px;
+}
+
+   .search-details .table tr>th,
+   .search-details .table tr>td {
+       font-size: 10px !important
+   }
+   table thead, table thead th, table thead td{text-transform: unset !important;}
+
+   .search-details .table tr>th,
+   .search-details .table tr>td {
+       padding: 5px !important
+   }
+   .search-details .table tbody tr td:nth-child(1),
+   .search-details .table thead tr th.selector-head,
+   {
+       padding: 10px !important
+   }
+   .search-details .table .table-sort:after,
+   .search-details .table .table-sort:before,
+   .search-details .table tr>td span.shape-name,
+   .search-details .table thead tr>th.selector-head:before {
+       display: none
+   }
+   .search-details .table tbody tr td:nth-child(2) {
+       min-width: auto
+   }
+   .search-details .table thead tr>th.selector-head:before {
+       width: 20px;
+       height: 24px;
+       background-position: 0 0
+   }
+   .search-details .table tbody tr th.table-selecter .state,
+   .search-details .table tbody tr th.table-selecter .state label:before,
+   .search-details .table tbody tr th.table-selecter .state label:after {
+       width: 11px;
+       height: 11px
+   }
+   /*.search-details .table tbody tr td:nth-child(3),
+   .search-details .table tbody tr td:nth-child(7),
+   .search-details .table tbody tr td:nth-child(8),
+   .search-details .table tbody tr td:nth-child(9),
+   .search-details .table tbody tr td:nth-child(10),
+   .search-details .table tbody tr td:nth-child(11),
+   .search-details .table tbody tr td:nth-child(12),
+   .search-details .table tbody tr td:nth-child(14),
+   .search-details .table thead tr th:nth-child(3),
+   .search-details .table thead tr th:nth-child(7),
+   .search-details .table thead tr th:nth-child(8),
+   .search-details .table thead tr th:nth-child(9),
+   .search-details .table thead tr th:nth-child(10),
+   .search-details .table thead tr th:nth-child(11),
+   .search-details .table thead tr th:nth-child(12),
+   .search-details .table thead tr th:nth-child(14) {
+       display: none !important
+   }*/
+
+   .search-details .table tbody tr td#Depthcol,
+   .search-details .table tbody tr td#TableMeasurecol,
+   .search-details .table tbody tr td#Polishcol,
+   .search-details .table tbody tr td#Symmetrycol,
+   .search-details .table tbody tr td#Measurementscol,
+
+   .search-details .table tbody tr td#inhousecol,
+   .search-details .table tbody tr td#dia_videocol,
+   .search-details .table thead tr th#Depth,
+   .search-details .table thead tr th#TableMeasure,
+   .search-details .table thead tr th#Polish,
+   .search-details .table thead tr th#Symmetry,
+   .search-details .table thead tr th#Measurements,
+
+   .search-details .table thead tr th#inhouse,
+   .search-details .table thead tr th#dia_video {
+       display: none !important
+   }
+
+   .search-details .table tbody tr th.table-selecter .state {
+       top: 50%;
+       left: 50%;
+       margin-top: -5.5px;
+       margin-left: -5.5px;
+   }
+   .search-details .table-responsive {
+       overflow: hidden !important
+   }
+   .search-details .table tbody tr td {
+       vertical-align: middle !important
+   }
+   .modal-popup.custom-modal.modal-slide._inner-scroll._show {
+       width: 320px;
+       left: 0 !important;
+       margin: 0 auto
+   }
+   .search-product-grid {
+       padding: 5px
+   }
+   .product-details .product-box-action label {
+       font-size: 14px
+   }
+   .product-box-action .state {
+       padding-left: 20px
+   }
+   .search-product-grid .product-details .product-box-pricing {
+       margin: 3px 0
+   }
+   .search-product-grid .product-details .product-box-pricing span {
+       font-size: 14px
+   }
+   .search-product-grid .product-details .product-item-name span {
+       margin: 2px 0
+   }
+   .product-item-name {
+       margin: 2px 0
+   }
+/*     .product-inner-info ul li p span:nth-child(odd) {
+   width: 100%
+}
+.product-inner-info ul li p span {
+   width: 100%
+} */
+   .product-inner-info ul li {
+       padding-bottom: 5px;
+       border-bottom: 1px solid #ddd
+   }
+   .filter-for-shape ul li label {
+       font-size: 12px
+   }
+   .filter-details .polish-depth ul li {
+       width: 30%;
+       margin-bottom: 5px
+   }
+   .diamond-filter-title ul li {
+       margin-right: 10px
+   }
+   .diamond-filter-title ul li a {
+       font-size: 16px
+   }
+   .with-specification .diamonds-preview {
+       width: 100%
+   }
+   .product-controler ul li {
+       width: 100%
+   }
+   .product-controler ul li {
+       margin-bottom: 10px;
+       width: 30%;
+       border: 1px solid #9f9f9f;
+       padding: 4px 5px 3px;
+       box-sizing: border-box;
+       margin-left: 1%;
+       min-height: 33px;
+       margin-right: 1%
+   }
+   .product-controler ul li a {
+       font-size: 11px;
+       padding-right: 0;
+       padding-left: 25px;
+       margin-top: -2px;
+       min-height: 28px
+   }
+   .product-controler ul li:before {
+       width: 24px;
+       height: 24px;
+       left: 3px;
+       font-size: 12px;
+       line-height: 24px
+   }
+   .grid-paginatin a#compare-main {
+       width: 100%;
+       box-sizing: border-box;
+       float: left;
+       text-align: center
+   }
+   .search-product-grid .product-images {
+       max-width: 100px;
+       float: none;
+       margin: 10px auto
+   }
+   .search-details .table,
+   .btn-compare {
+       margin-bottom: 0
+   }
+   .grid-paginatin ul {
+       margin-top: 0
+   }
+   .with-specification .grid-paginatin ul {
+       margin-top: 15px
+   }
+   .grid-paginatin ul li {
+       min-width: 33px;
+       min-height: 33px
+   }
+   .compare-product .filter-title ul.filter-left {
+       padding-left: 25px
+   }
+   .compare-product .filter-title ul.filter-left li {
+       margin-right: 17px
+   }
+   .compare-product .filter-title ul.filter-left li a, .compare-product .filter-title ul.compare-filter-right li a {
+       font-size: 15px
+   }
+   ul.compare-filter-right{padding: 22px 31px 19px 0;}
+   .filter-advanced .grid-view-sort .SumoSelect>.CaptionCont {
+       width: 100%;
+       box-sizing: border-box
+   }
+   .filter-details .polish-depth ul li:nth-child(1) {
+       margin-left: 1%
+   }
+   .SumoSelect>.CaptionCont {
+       width: 100%;
+       box-sizing: border-box
+   }
+   .prefrence-area ul {
+       width: 100%;
+       margin-top: 10px
+   }
+   .prefrence-area ul li:first-child {
+       padding-left: 0;
+       margin-left: 0
+   }
+   .filter-details .fancy-color-filter ul li {
+       width: 21%
+   }
+   .color-filter.fancy-overtone-filter ul li {
+       width: 30%
+   }
+   .color-filter.fancy-IntIntensity-filter ul li {
+       width: 22%
+   }
+   .search-in-table {
+       width: 100%
+   }
+   .gridview-dir-div {
+       padding-left: 12px
+   }
+   .change-view-result p {
+       font-size: 12px
+   }
+   .item-page .sumo_pagesize {
+       width: 70px
+   }
+   .filter-advanced .SumoSelect>.CaptionCont {
+       padding: 5px 2px
+   }
+   .filter-advanced .SumoSelect>.CaptionCont>span {
+       padding-right: 26px;
+       text-align: center
+   }
+   .filter-advanced .SumoSelect>.CaptionCont>label {
+       height: 23px;
+       margin-top: 4px
+   }
+   .change-view-result .grid-view-sort .SumoSelect {
+       width: 75px
+   }
+   .filter-advanced .SumoSelect>.CaptionCont>label {
+       width: 25px
+   }
+   .gridview-dir-div {
+       padding-left: 0
+   }
+   .item-page .SumoSelect>.CaptionCont>label>i:before {
+       margin-left: 6px
+   }
+   .gridview-dir-div a:before {
+       top: 5px;
+       background-position: 9px 0;
+       width: 24px
+   }
+   .gridview-dir-div a#DESC.active {
+       width: 24px
+   }
+   .gridview-dir-div a#DESC.active:before {
+       background-position: -30px -11px
+   }
+   .filter-advanced .certificate-div .SumoSelect>.CaptionCont>span {
+       text-align: left
+   }
+   .diamonds-product-view .internalusemodel .modal-inner-wrap,
+   .diamonds-product-view .dealerinfopopup .modal-inner-wrap {
+       width: 90%
+   }
+   .internalusemodel.modal-slide .modal-content,
+   .dealerinfopopup.modal-slide .modal-content {
+       padding: 10px
+   }
+.search-details .table thead tr>th.selector-head {
+   font-size: 0 !important;
+}
+.search-details .table tbody tr td:nth-child(2) img{float: none;}
+.search-details .table tbody tr td:nth-child(2){text-align: center;}
+.search-details .table tbody tr td{border-top:1px solid #ddd }
+}
+@media only screen and (min-width: 1025px) {
+.filter-for-shape ul li.round .shape-type:hover:after
+{
+   background-position: -46px -44px;
+}
+.filter-for-shape ul li.princess .shape-type:hover:after
+{
+   background-position: -173px -44px;
+}
+
+.filter-for-shape ul li.emerald .shape-type:hover:after
+{
+   background-position: -215px -45px;
+}
+
+.filter-for-shape ul li.radiant .shape-type:hover:after
+{
+   background-position: -300px -46px;
+}
+
+.filter-for-shape ul li.cushion .shape-type:hover:after
+{
+   background-position: 37px -137px;
+}
+
+.filter-for-shape ul li.pear .shape-type:hover:after
+{
+   background-position: -4px -138px;
+}
+
+.filter-for-shape ul li.marquise .shape-type:hover:after
+{
+   background-position: -47px -139px;
+}
+
+.filter-for-shape ul li.oval .shape-type:hover:after
+{
+   background-position: -88px -137px;
+}
+
+.filter-for-shape ul li.asscher .shape-type:hover:after
+{
+   background-position: -131px -46px;
+}
+.filter-for-shape ul li.heart .shape-type:hover:after
+{
+   background-position: -132px -138px;
+}
+.filter-for-shape .cut-main ul li{padding: 10px 27px;}
+}
+@media only screen and (max-width: 991px) {
+   /*Diamonds search page css start*/
+   .diamonds-details {
+       width: 100%;
+   }
+   .diamonds-preview {
+       width: 100%;
+       max-width: 100%;
+       clear: both;
+       margin: 0 auto;
+       float: none;
+       overflow: hidden;
+       margin-bottom: 40px;
+   }
+   .search-details .table-responsive {
+       overflow: auto;
+       box-sizing: border-box;
+       float: left;
+       width: 100%;
+   }
+   .search-product-grid .product-details .product-box-pricing span {
+       font-size: 18px;
+       margin: 0px 0;
+   }
+   .search-product-grid .product-details .product-box-action {
+       margin: 4px 0;
+   }
+   .product-inner-info {
+       width: 100%;
+   }
+   .product-inner-info ul li {
+       word-break: break-all;
+   }
+   .color-filter.clarity-filter ul li {
+       width: 8.3%;
+   }
+   .color-filter ul li {
+       width: 9.6%;
+   }
+   .filter-details {
+       margin-top: 10px;
+       padding: 0;
+   }
+   /*Diamonds search page css end*/
+   /*Diamonds page css start*/
+   .with-specification .diamonds-details {
+       width: 100%
+   }
+   .diamond-page .diamond-request-form .form-field {
+       max-width: 100%;
+       padding-left: 0;
+   }
+   .diamond-page .diamond-desc {
+       padding: 0;
+       margin-bottom: 20px;
+   }
+   .specification-title {
+       padding: 10px 0;
+   }
+   /*Diamonds page css end*/
+   .filter-for-shape .cut-main ul li {
+       margin-bottom: 10px;
+   }
+   .filter-advanced {
+       margin-top: 0;
+       margin-left: 0;
+       margin-right: 0;
+   }
+   .compare-info th,
+   .compare-info tr,
+   .compare-info td {
+       width: 150px;
+   }
+   /*@-moz-document url-prefix() {
+   .search-details .table-responsive{width: 90vw;}
+}*/
+   .prefrence-area ul li div {
+       width: auto;
+       float: left;
+       clear: both;
+   }
+   .with-specification.diamond-page .diamond-specification .specification-title {
+       padding-left: 10px;
+       padding-right: 10px;
+       padding-top: 10px;
+   }
+   .filter-details .fancy-color-filter ul li{width: 7.6%;}
+   .color-filter.fancy-overtone-filter ul li {width: 10.7%; margin-bottom: 10px;}
+   .color-filter.fancy-overtone-filter {text-align: center;}
+   .diamond-forms .note{margin-left: 0; width: 100%;}
+   .filter-details .cut-main ul li {min-width:44%;}
+
+   .search-in-table{width: 100%;max-width: 350px;margin-top: 5px;}
+   .searching-result .view-or-search-result .change-view-result .grid-view-sort {float: right;}
+   .change-view-result ul li{height: 30px;}
+   .change-view-result ul{margin-top: 5px;float: left;}
+   .searching-result .number-of-search{width: 100%;}
+   .searching-result .view-or-search-result {margin-top: 8px;width: 50%;}
+   .change-view-result ul li:last-child {margin-right: 2px;}
+   .SumoSelect.sumo_gemfind_diamond_origin {padding-right: 0;}
+   .change-view-result ul.options li {height: auto;}
+   .item-page{    float: none;}
+
+}
+
+@media only screen and (min-width: 768px) {
+
+   /*Diamonds search page css start*/
+   .search-product-grid:nth-child(1n) {
+       margin-left: 0;
+   }
+   .search-product-grid:nth-child(4n) {
+       margin-right: 0;
+   }
+   .search-product-grid {
+       margin: 1% 2.6%;
+   }
+   /*Diamonds search page css end*/
+   /*3-12-18 start here*/
+.filter-details .fancy-color-filter ul,
+.filter-details .color-filter ul,
+.filter-details .filter-advanced-main ul{display: -webkit-flex;display: -moz-flex;display: -ms-flexbox;display: -o-flex;display: flex;}
+
+.filter-details .fancy-color-filter ul li,
+.filter-details .color-filter ul li,
+.filter-details .filter-advanced-main ul li {/*-webkit-flex:1; -moz-flex:1; -ms-flex:1; -o-flex:1;flex: 1;*/ -webkit-flex: 1 1 auto; -moz-flex: 1 1 auto; -ms-flex: 1 1 auto; -o-flex: 1 1 auto; flex: 1 1 auto;}
+
+.filter-details .fancy-color-filter ul li {font-size: 0;height: 48px;}
+.filter-details .cut-main ul{display: -webkit-flex;display: -moz-flex;display: -ms-flexbox;display: -o-flex;display: flex; align-items: center;justify-content: center;flex-flow: row wrap;}
+.cut-wrapper {min-height: auto;}
+/*3-12-18 end here*/
+}
+
+@media only screen and (max-width: 767px) {
+   .gemfind_powered_by{padding: 0 15px}
+   .impulse-gemfind .diamonds-search, .impulse-gemfind .result.filter-advanced, .impulse-gemfind .diamonds-product-view .breadcrumbs {
+       padding: 15px 15px 0;
+   }
+   .modal-popup.custom-modal.modal-slide._inner-scroll._show {
+   width: 320px;
+   left: 0px !important;
+   margin: 0 auto;
+}
+.modal-popup.custom-modal.modal-slide._inner-scroll .modal-inner-wrap {
+   height: auto;
+min-height: auto !important; 
+}
+   /*Diamonds search page css start*/
+   .filter-main {
+       width: 100%;
+   }
+   .search-product-grid {
+       width: 48%;
+   }
+   .searching-result .view-or-search-result .change-view-result .grid-view-sort select {
+       width: 49%;
+       margin-right: 0;
+       margin-left: 1%;
+   }
+   .search-details {
+       margin-top: 0;
+   }
+   .filter-main.filter-alignment-left {
+       padding-left: 0;
+   }
+   .filter-main.filter-alignment-right {
+       padding-right: 0;
+   }
+   .cut-main {
+       min-height: auto;
+   }
+   .color-filter ul li {
+       width: 9.4%;
+   }
+   .filter-advanced-main {
+       width: 100%;
+   }
+   .filter-advanced .filter-advanced-main.advance-right {
+       padding-left: 0;
+   }
+   .filter-advanced .panel {
+       margin-bottom: 0;
+   }
+   .filter-details h4 {
+       margin-bottom: 10px;
+   }
+   .filter-advanced-main {
+       padding-bottom: 0;
+       margin-bottom: 0;
+   }
+   .diamond-filter-title ul {
+       width: 100%;
+       text-align: center;
+       padding: 6px 0;
+   }
+   .diamond-filter-title {
+       padding: 8px 0;
+       padding-left: 10px;
+   }
+   .filter-for-shape ul li {
+       margin-bottom: 10px;
+   }
+   .diamonds-filter ul.filter-right {
+       text-align: center;
+       float: left;
+       border-top: 1px solid #b9adad;
+   }
+   .diamond-filter-title ul li {
+       float: none;
+       display: inline-block;
+   }
+   /*Diamonds search page css end*/
+   /*Diamonds page css start*/
+   .diamond-page .specification-title h2 {
+       display: inline-block;
+       float: left;
+       font-size: 24px;
+       width: auto;
+   }
+   .specification-title h4 {
+       display: inline-block;
+       float: right;
+       width: auto;
+       margin-top: 5px;
+       text-align: left;
+   }
+   .intro-field ul li {
+       padding: 4px 5px;
+   }
+   .intro-field ul li p,
+   .intro-field ul li strong {
+       font-size: 16px;
+   }
+   .diamond-page .diamond-desc {
+       margin-bottom: 10px;
+   }
+   .diamonds-preview {
+       margin-bottom: 20px;
+   }
+   .specification-title {
+       padding: 20px 0;
+   }
+   .product-controler {
+       margin-top: 20px;
+   }
+   .diamond-request-form .form-field span {
+       padding: 0;
+   }
+   .diamond-action {
+       margin-top: 20px;
+       text-align: center;
+   }
+   .diamond-action .box-tocart {
+   text-align: center;
+   display: inline-block;
+   margin-bottom: 0;
+}
+   .diamond-page .search-details {
+       /*margin-top: 20px;*/
+   }
+   .diamond-page .diamond-action button.addtocart {
+       font-size: 18px;
+       padding: 6px 20px;
+   }
+   .diamond-grade {
+       padding: 10px 10px;
+       margin-left: -10px;
+       margin-right: -10px;
+       margin-bottom: -10px;
+   }
+   .diamondimg {
+       max-width: 120px;
+       margin: 0 auto;
+   }
+   .diamond-info {
+       padding: 10px 10px 10px 10px;
+   }
+   .grade-info p {
+       line-height: 18px;
+       font-size: 14px;
+   }
+   .diamond-info h2 {
+       margin: 0;
+       margin-bottom: 10px;
+   }
+   .diamond-info h5 {
+       margin: 0;
+       margin-bottom: 10px;
+   }
+   /*Diamonds page css end*/
+   .search-product-grid .product-images {
+       max-width: 150px;
+       float: none;
+       margin: 20px auto;
+   }
+   .grid-paginatin .pagination-div {
+       width: auto;
+       float: right;
+   }
+   .grid-paginatin .page-checked .result-bottom {
+       text-align: right;
+       margin-top: 10px;
+   }
+   .grid-paginatin .page-checked {
+       width: 100%;
+   }
+   .with-specification .grid-paginatin .page-checked {
+       width: auto;
+   }
+   .with-specification.diamond-page .diamond-data .specification-title h2 {
+       font-size: 22px;
+   }
+   .diamond-page .diamond-desc p {
+       font-size: 14px;
+   }
+   .with-specification.diamond-page .diamond-specification .specification-title {
+       padding-left: 10px;
+       padding-bottom: 15px;
+   }
+   .filter-details ul {
+       text-align: left;
+       flex-wrap: wrap;
+   }
+   .filter-advanced .filter-main .filter-for-shape {
+       padding-right: 0;   
+   }
+   .compare-info th,
+   .compare-info tr,
+   .compare-info td {
+       width: 100px;
+   }
+   .SumoSelect>.optWrapper.selall>.options {
+       text-align: left;
+   }
+   .SumoSelect>.optWrapper>.options {
+       text-align: left;
+   }
+   .diamonds-index-index .columns .column.main {
+       max-width: 100%;
+   }
+   .diamond-request-form .form-field .diamond-action span {
+       font-size: 24px;
+   }
+   .filter-details .fancy-color-filter ul li {
+       width: 18%;
+       margin-bottom: 10px;
+       font-size: 0;
+   }
+   .searching-result .number-of-search{width: 100%;}
+   .item-page .sumo_pagesize{margin-right: 0; padding-right: 0;}
+   .filter-advanced .item-page .SumoSelect>.CaptionCont{float: right;}
+   .searching-result .view-or-search-result .change-view-result .grid-view-sort{
+width: auto;
+   float: right;
+   text-align: right;
+   }
+   .change-view-result .grid-view-sort .SumoSelect{
+           float: left;
+   margin-top: 0px;
+   padding-right: 0;
+   }
+   .search-in-table{
+       width: auto;
+   max-width: none;
+   }
+   .change-view-result .grid-view-sort .SumoSelect:nth-child(2) {
+   padding-left: 0;
+}
+.advance-right .certificate-div .certificates-formobile,
+.advance-right .certificate-div .certificates-formobile.labbrowncerti {display: none !important;}
+.filter-details .polish-depth ul li {display: inline-block;float: none;}
+.search-in-table input{min-width: 217px; font-size: 13px;}
+.price-main .price-right{right: 0;}
+.filter-advanced .filter-advanced-main.advance-left{padding-right: 0;}
+.filter-advanced .certificate-div .SumoSelect{width: 100%;margin-bottom: 20px; padding: 0;}
+.advance-right .certificate-div{margin-left: 0;}
+.gridview-dir-div{margin-left: 10px;}
+.diamonds-product-view .breadcrumbs {display: block;}
+.searching-result .view-or-search-result{width: 100%;}
+
+.modal-popup.internalusemodel.modal-slide._inner-scroll .modal-inner-wrap,
+.modal-popup.dealerinfopopup.modal-slide._inner-scroll .modal-inner-wrap{height: auto; min-height: auto;}
+.modal-popup.internalusemodel.modal-slide .modal-inner-wrap[class],
+.modal-popup.dealerinfopopup.modal-slide .modal-inner-wrap[class]{background-color: #fff; transform: none !important;position: relative;margin: 0 auto;margin-top: 20px;}
+.modal-popup.internalusemodel.modal-slide._inner-scroll._show,
+.modal-popup.dealerinfopopup.modal-slide._inner-scroll._show{left: 0;}
+
+.shape-flex { flex-wrap: wrap; }
+.shape-flex .filter-main{ margin-bottom: 0px; }
+.shape-flex .filter-main:last-child{ margin-bottom: 0; }
+.diamond-filter-title ul.filter-left, .diamond-filter-title ul.filter-right{width: 100%}
+
+.search-form{border-bottom: 0px !important;}
+.filter-left.kendana-filter, ul.compare-filter-right{width: 100% !important}
+ul.compare-filter-right{text-align: center;}
+.gemfind-tool ul.compare-filter-right{padding: 10px}
+.gemfind-tool .compare-product .filter-title ul.filter-left{    padding: 20px 20px 10px;text-align: center;border-bottom: 1px solid #ccc;}
+.compare-product .filter-title ul.filter-left li {margin: 0 5px; }
+.compare-product .filter-title ul.filter-left li {float: none;display: inline-block;}
+}
+
+@media only screen and (max-width: 639px) {
+   .modal-popup.custom-modal.modal-slide._inner-scroll._show {
+   width: 320px;
+    left: 0px !important;
+   margin: 0 auto;
+}
+   /*Diamonds search page css start*/
+   .searching-result .number-of-search,
+   .diamonds-product-view .searching-result .view-or-search-result {
+       width: 100% !important;
+   }
+   .searching-result {
+       margin-bottom: 8px;
+   }
+   .searching-result .number-of-search {
+       margin-bottom: 5px;
+   }
+   .color-filter.clarity-filter ul li {
+   width: 31%;
+   margin-bottom: 10px;
+   margin-left: 1%;
+   margin-right: 1%;
+   float: left;
+   }
+   .color-filter ul li {
+   width: 31%;
+   margin-bottom: 10px;
+   margin-right: 1%;
+   margin-left: 1%;
+   float: left;
+   }
+   .filter-details .polish-depth.filter-Fluoroscence ul li{
+   width: 31%;
+   margin-bottom: 10px;
+   margin-right: 1%;
+   margin-left: 1%;
+   float: left;
+   }
+   .filter-for-shape ul li:nth-child(1), .color-filter ul li:nth-child(1), .filter-details .polish-depth ul li:nth-child(1) {
+   margin-left: 1%;
+}
+.filter-details .polish-depth ul li{
+   width: 31%;
+   margin-left: 1%;
+   margin-right: 1%;
+   float: left;
+}
+.filter-for-shape ul li:nth-child(1){margin-left: 0;}
+.filter-details .cut-main ul li {
+   width: 31%;
+   margin-left: 1%;
+   margin-right: 1%;
+   box-sizing: border-box;
+   float: left;
+}
+   .grid-paginatin ul {
+       text-align: center;
+   }
+   /*Diamonds search page css end*/
+   .grid-paginatin .pagination-div {
+       width: 100%;
+       float: right;
+   }
+   .grid-paginatin .page-checked .result-bottom {
+       text-align: center;
+       margin-top: 0;
+   }
+   .grid-paginatin .page-checked {
+       width: 100%;
+   }
+   .grid-paginatin .btn-compare {
+       margin: 0;
+   }
+   .grid-paginatin .btn-compare {
+       width: 100%;
+       float: none;
+       margin: 0 auto;
+       text-align: center;
+   }
+   .grid-paginatin .btn-compare a {
+       width: auto;
+   }
+   .grid-paginatin ul {
+       width: 100%;
+       margin-top: 15px;
+       margin-bottom: 8px;
+   }
+   .with-specification .grid-paginatin .page-checked {
+       width: 100%;
+   }
+   .with-specification .grid-paginatin .page-checked .result-bottom {
+       text-align: center;
+   }
+   .with-specification .grid-paginatin ul {
+       margin-top: 0;
+   }
+   .advance-right .polish-depth {
+       margin-bottom: 15px;
+   }
+   .prefrence-action .preference-btn {
+       padding: 10px 10px;
+       font-size: 16px;
+   }
+   .requested-form {
+       padding: 0;
+   }
+   .requested-form h2 {
+       font-size: 20px;
+       font-weight: 400;
+   }
+   .diamond-request-form .form-field label {
+       margin: 15px 0;
+   }
+   .diamond-request-form .form-field label textarea {
+       min-height: 60px;
+   }
+   .diamond-request-form .form-field label input {
+       height: 35px;
+   }
+   .prefrence-action button.preference-btn span {
+       padding-left: 0;
+   }
+   .product-inner-info {
+       height: 100%;
+       overflow: auto;
+   }
+   .compare-info table tbody tr th:nth-child(1) a {
+       margin-right: 20px;
+   }
+   .compare-product .filter-title ul.filter-left li a {
+       font-size: 16px;
+   }
+   .color-filter.fancy-overtone-filter ul li{
+       width: 22%;
+   }
+   .search-in-table{    width: 100%;}
+}
+
+
+@media only screen and (max-width: 520px) {
+   .modal-popup.custom-modal.modal-slide._inner-scroll._show {
+   width: 320px;
+   left: 0px !important;
+   margin: 0 auto;
+}
+   .searching-result .view-or-search-result .change-view-result{justify-content: space-between;}
+   .searching-result .view-or-search-result .change-view-result .grid-view-sort{width: auto;     float: right}
+   .filter-advanced .SumoSelect>.CaptionCont{width: 100%; box-sizing: border-box;}
+   .change-view-result .grid-view-sort .SumoSelect{width: 80%;}
+   .change-view-result ul{float: left; padding-left: 0;position: static;    flex: 1;}
+   .gridview-dir-div {
+   margin-left: 0;
+   width: 10%;
+   padding-left: 15px;
+   box-sizing: border-box;
+
+}
+.item-page{       float: none;}
+#search-diamonds .ui-slider .ui-slider-val {width: 100px;}
+/* #search-diamonds .ui-slider .ui-slider-val.slider-right{width: 110px;} */
+#search-diamonds .ui-slider .price-right .ui-slider-val.slider-right, #search-diamonds .ui-slider .price-left .ui-slider-val.slider-left{width: 129px;}
+.price-main .price-right span.currency-icon{right: 84px;}
+.filter-details .cut-main ul li{width: 30%;float: left;box-sizing: border-box;padding: 11px 8px;}
+.search-product-grid{width: 100%; margin: 1% auto;}
+}
+
+
+@media only screen and (max-width: 480px) {
+   .modal-popup.custom-modal.modal-slide._inner-scroll._show {
+   width: 320px;
+   left: 0px !important;
+   margin: 0 auto;
+}
+   /*Diamonds search page css start*/
+   .search-product-grid {
+       padding: 5px;
+   }
+   .product-details .product-box-action label {
+       font-size: 14px;
+   }
+   .product-box-action .state {
+       padding-left: 20px;
+   }
+   .search-product-grid .product-details .product-box-pricing {
+       margin: 3px 0;
+   }
+   .search-product-grid .product-details .product-box-pricing span {
+       font-size: 14px;
+   }
+   .search-product-grid .product-details .product-item-name span {
+       margin: 2px 0;
+   }
+   .product-item-name {
+       margin: 2px 0;
+   }
+/*     .product-inner-info ul li p span:nth-child(odd) {
+   width: 100%;
+} */
+/*     .product-inner-info ul li p span {
+   width: 100%;
+} */
+   .product-inner-info ul li {
+       padding-bottom: 5px;
+       border-bottom: 1px solid #ddd;
+   }
+   .filter-for-shape ul li label {
+       font-size: 12px;
+   }
+   .filter-details .polish-depth ul li {
+       width: 30%;
+       margin-bottom: 5px;
+   }
+   .diamond-filter-title ul li {
+       margin-right: 10px;
+   }
+   .diamond-filter-title ul li a {
+       font-size: 16px;
+   }
+   /*Diamonds search page css end*/
+   /*Diamonds page css start*/
+   .with-specification .diamonds-preview {
+       width: 100%;
+   }
+   .product-controler ul li {
+       width: 100%;
+   }
+   .product-controler ul li {   
+   margin-bottom: 10px;
+   width: 48%;
+   border: 1px solid #9f9f9f;
+padding: 4px 5px 3px 5px;
+   box-sizing: border-box;
+   margin-left: 1%;
+   min-height: 33px;
+   margin-right: 1%;
+}
+   .product-controler ul li a{
+           font-size: 11px;
+   padding-right: 0;
+   padding-left: 25px;
+   margin-top: -2px;
+   min-height: 28px;
+   line-height: 28px;
+   }
+   .product-controler ul li:before{
+           width: 24px;
+   height: 24px;
+   left: 3px;
+   font-size: 12px;
+   line-height: 24px;
+   }
+   /*Diamonds page css end*/
+   .grid-paginatin a#compare-main {
+       width: 100%;
+       box-sizing: border-box;
+       float: left;
+       text-align: center;
+   }
+   .search-product-grid .product-images {
+       max-width: 100px;
+       float: none;
+       margin: 10px auto;
+   }
+   .search-details .table,
+   .btn-compare {
+       margin-bottom: 0;
+   }
+   .grid-paginatin ul {
+       margin-top: 0;
+   }
+   .with-specification .grid-paginatin ul {
+       margin-top: 15px;
+   }
+   .grid-paginatin ul li {
+       min-width: 33px;
+       min-height: 33px;
+   }
+   .compare-product .filter-title ul.filter-left {
+       padding-left: 25px;
+   }
+   .compare-product .filter-title ul.filter-left li {
+       margin:0 5px;
+   }
+   .compare-product .filter-title ul.filter-left li a {
+       font-size: 15px;
+   }
+   .filter-advanced .grid-view-sort .SumoSelect>.CaptionCont {
+       width: 100%;
+       box-sizing: border-box;
+   }
+   .filter-details .polish-depth ul li:nth-child(1) {
+       margin-left: 1%;
+   }
+   .SumoSelect>.CaptionCont {
+       width: 100%;
+       box-sizing: border-box;
+   }
+   .prefrence-area ul {
+       width: 100%;
+       margin-top: 10px;
+   }
+   .prefrence-area ul li:first-child {
+       padding-left: 0;
+       margin-left: 0;
+   }
+   .filter-details .fancy-color-filter ul li{width: 21%;}
+   .color-filter.fancy-overtone-filter ul li{
+       width: 30%;
+   }
+   .color-filter.fancy-IntIntensity-filter ul li {
+       width: 22%;
+   }
+/*    .item-page .sumo_pagesize{width: 70%; float: right;}*/
+   .search-in-table{width: 100%}
+/*    .item-page{width: 100%;}*/
+   .gridview-dir-div{    padding-left: 12px;}
+
+   /*paging css*/
+   .change-view-result p{font-size: 12px;}
+   .item-page .sumo_pagesize {width: 70px;}
+   .filter-advanced .SumoSelect>.CaptionCont{padding: 5px 2px;}
+   .filter-advanced .SumoSelect>.CaptionCont>span{padding-right: 26px;text-align: center;}
+   .filter-advanced .SumoSelect>.CaptionCont>label{height: 23px;margin-top: 4px;}
+   .change-view-result .grid-view-sort .SumoSelect{width: 75px;}
+   .filter-advanced .SumoSelect>.CaptionCont>label{width: 25px;}
+   .gridview-dir-div {padding-left: 0px;}
+   .item-page .SumoSelect>.CaptionCont>label>i:before{margin-left: 6px;}
+   .gridview-dir-div a:before{top: 5px;background-position: 9px 0;width: 24px;}
+   .gridview-dir-div a#DESC.active {width: 24px;}
+   .gridview-dir-div a#DESC.active:before{    background-position: -30px -11px;}
+   .filter-advanced .certificate-div .SumoSelect>.CaptionCont>span {text-align: left;}
+   .diamonds-product-view .internalusemodel .modal-inner-wrap, .diamonds-product-view .dealerinfopopup .modal-inner-wrap {width: 90%;}
+   .internalusemodel.modal-slide .modal-content, .dealerinfopopup.modal-slide .modal-content{padding: 10px;}
+
+
+}
+
+@media only screen and (max-width: 360px) {
+   .compare-product .filter-title ul.filter-left {
+       text-align: center;
+   }
+   .compare-product .filter-title ul.filter-left li {
+       float: none;
+       display: inline-block;
+   }
+   .certificate-div .SumoSelect>.CaptionCont>label>i:before {
+   margin-left: 5px;
+}
+.search-details .table tr>th,
+   .search-details .table tr>td {
+       font-size: 9px !important
+   }
+}
+
+
+/*RESPONSIVE CSS END HERE*/
+
+@media screen and (min-width:0\0) and (min-resolution: +72dpi) {
+   /*IE9 CSS ONLY START*/
+    :root .actions-row {
+       vertical-align: middle;
+   }
+    :root .actions-row a {
+       display: table-cell;
+       vertical-align: middle;
+       float: left;
+       margin-right: 2px;
+       padding: 2px 0;
+   }
+   .search-details .table tbody tr th {
+       border-right: 2px solid #ddd;
+   }
+   .search-details .table tbody tr td:last-child {
+       border-left: 2px solid #ddd;
+   }
+   .compare-actions .view-product {
+       padding: 4px 10px !important;
+   }
+   /*IE9 CSS ONLY END*/
+}
+
+
+body.diamonds-index-index.page-layout-1column.loaded, body.diamonds-product-view.page-layout-1column.loaded {
+   font-size: 1.4em;
+   font-family: 'Lato', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.428571;
+} 
+.modal-slide .action-close {
+   padding: 5px 8px !important;
+   background: black !important;
+   border-radius: 0px !important;
+}
+
+.modal-custom .action-close:before, .modal-popup .action-close:before, .modal-slide .action-close:before{
+font-size: 11px !important;
+line-height: 11px !important;
+color: #fff !important;
+vertical-align: middle !important;
+}
+.modal-popup .action-close:hover, .modal-slide .action-close:hover{color: #fff !important;}
+
+.custom-modal .note {
+   background: none !important;
+}
+.modal-popup.custom-modal .modal-header{padding-top: 2rem;}
+.form-field label.error{color: #e02b27;margin: 0;}
+.form-field label.error > br{display: none;}
+.diamonds-product-view input, .diamonds-product-view textarea{background: none;}
+#popup-modal .modal-header .modal-title{font-size: 14px;text-transform: unset;}
+#popup-modal .note {font-size: 16px;}
+#form-schedule-view select{border: 1px solid #ccc;height: 32px;padding-right: 25px;text-indent: .01em;    border-radius: 1px;font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;font-size: 14px;line-height: 1.42857143;padding: 5px 10px 4px;vertical-align: baseline;width: 100%;box-sizing: border-box;}
+.ui-datepicker .ui-datepicker-calendar .ui-datepicker-today a{background: none;}
+.diamond-request-form .form-field .prefrence-area label.error:after, .diamond-request-form .form-field .prefrence-area label.error:before{content: none;}
+.diamond-request-form .form-field .prefrence-area label.error {clear: both;padding: 0;float: left;padding-left: 12px;}
+#printMessageBox{display:none;position: fixed; top: 50%; left: 50%; text-align: center; margin: -60px 0px 0px -155px; width: 348px; height: 152px; font-size: 16px; padding: 10px; color: rgb(34, 34, 34); font-family: LatoRegular, arial; opacity: 1; border: 6px solid rgb(85, 85, 85); border-radius: 8px; box-shadow: rgb(136, 136, 136) 0px 0px 10px; background: url('../images/print_icon.gif') center 40px no-repeat rgb(255, 255, 255) !important;}
+.diamonds-product-view .auth-section .internaluseform input{background: #fff;background-clip: padding-box;border: 1px solid #c2c2c2;border-radius: 1px;font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;font-size: 14px;height: 32px;line-height: 1.42857143;padding: 0 9px;vertical-align: baseline;width: 100%;box-sizing: border-box;}
+.diamonds-product-view .auth-section .internaluseform .preference-btn{cursor: pointer;
+display: inline-block;
+font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+font-weight: 600;
+margin: 0;
+padding: 7px 15px;
+font-size: 1.4rem;
+line-height: 1.6rem;
+box-sizing: border-box;
+vertical-align: middle;
+border: none;
+border-radius: 2px;
+}
+.dearlercode-form{margin: 0 40px;}
+.diamonds-product-view .auth-section .modal-header, .diamonds-product-view .dealer-detail-section .modal-header{border-bottom: none;}
+.diamonds-product-view .auth-section .modal-header .close, .diamonds-product-view .dealer-detail-section .modal-header .close {margin-top: -17px;margin-right: -17px;padding: 4px 10px 4px 10px;background: #000;opacity: 1;color: #fff;}
+.diamonds-product-view .auth-section .modal-content, .diamonds-product-view .dealer-detail-section .modal-content {border-radius: 0;}
+.diamonds-product-view .auth-section .modal-dialog, .diamonds-product-view .dealer-detail-section .modal-dialog{border: 2px solid #000022;}
+.auth-section .msg .error{color: #e40f0f;}
+.auth-section .msg .success{color: #29a529;}
+.dealer-detail-section .modal-body {padding-top: 10px;overflow-y: auto;    padding-left: 3rem;padding-right: 3rem;}
+.diamonds-product-view .dealer-info-section table td{padding: 11px 10px;vertical-align: top;display: table-cell;}
+.diamonds-product-view .dealer-info-section table{border-collapse: collapse;border-spacing: 0;}
+.diamonds-product-view .dealer-info-section{font-weight: 800;color: #626262;}
+.diamonds-product-view .dealer-info-section table tr {word-break: break-word;}
+.diamonds-product-view #dealer-detail-section .modal-dialog{height: 80%;}
+.diamonds-product-view #dealer-detail-section .modal-content{height: 100%;}
+.diamonds-product-view #dealer-detail-section .modal-body {max-height: calc(100% - 120px);overflow-y: scroll;}
+/*New CSS 23-07-2019*/
+.diamond-request-form .has-datepicker--icon:before{top:4px;}
+.certificate-div .SumoSelect .select-all{height:auto;}
+.compare-info table tbody tr th:nth-child(1) a{margin-right:20px;}
+.gemfind-tool #MainContent input[type="text"], .gemfind-tool #MainContent input[type="password"], .gemfind-tool #MainContent input[type="url"], .gemfind-tool #MainContent input[type="tel"], .gemfind-tool #MainContent  input[type="search"], .gemfind-tool #MainContent input[type="number"], .gemfind-tool #MainContent input[type="datetime"], .gemfind-tool #MainContent input[type="email"]{ background: #fff; }
+.diamonds-search label{font-weight:400;}
+.filter-details .shape-type:after{top: 5px;}
+.diamonds-search .ui-slider-handle{border:none;}
+.search-details .table tbody tr td a{color: #010101;}
+.search-details .table tbody tr:hover td a {color: #fff;}
+.search-details .table tbody tr:hover .view-data svg#Capa_1, .search-details .table tbody tr.selected_row .view-data svg#Capa_1 {fill: #fff;}
+
+.change-view-result ul li a{color: #010101;}
+.grid-paginatin ul li a{color: #010101;}
+table thead tr th{border:none;    border-bottom: none;}
+.table>thead>tr>th{border:none;    border-bottom: none;}
+.table{table-layout: auto; border:none;}
+.diamonds-product-view .auth-section .internaluseform input{font-weight: 400;color: #000}
+.filter-advanced .panel{background-color: transparent; margin-bottom: 0px;}
+a.internaluselink{font-weight: 800;}
+table td{border:none;}
+#printMessageBox{transform: translate(-50%,-50%); margin:0px;}
+.filter-details .polish-depth ul li{margin-bottom:10px!important;}
+.color-filter ul li{margin-bottom: 10px!important;}
+.search-in-table input{width: 100%;}
+.modal-header .close {margin-top: -10px;}
+
+#search-diamonds .ui-slider input[type=number]::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+}
+#search-diamonds .ui-slider input[type=number] {
+     -moz-appearance:textfield;
+}
+
+.mobile-compare-view .compare-main-container .compare-items{display: flex; display: -webkit-flex; align-items: center; border-bottom: 2px solid #f3f3f3;}
+.mobile-compare-view .compare-main-container .compare-items:nth-child(odd){background-color:#f7f7f7;}
+.mobile-compare-view .compare-main-container .compare-items [class*="item-"]{flex:1 1;    text-align: center;padding: 8px;}
+.mobile-compare-view .compare-main-container .compare-items [class*="item-"] span{display: block; font-size:16px; font-weight:500; text-transform: uppercase; color: #313133;    margin-bottom: 2px;}
+.mobile-compare-view .compare-main-container .compare-items .view-product{border:1px solid #003399; padding:0.4rem; font-size: 14px; text-align: center;text-transform: uppercase; display: inline-block;}
+.mobile-compare-view .compare-main-container .compare-items [class*="item-"] span.diamond-label{color:#a2a2a2;}
+.mobile-compare-view .compare-main-container .compare-items .diamond-value.shape-type{display: block;}     
+.mobile-compare-view .compare-main-container .compare-items [class*="item-"] img[alt="Diamond"]{width:70px;height:70px; object-fit:contain; object-position: center;} 
+.search-product-grid.selected_grid{box-shadow: 2px 2px 7px 1px #dcdcdc;border-color: #000; }
+.search-details .table tbody tr td .span.shape-name {word-break: break-word;max-width: 83px;display: inline-block;}
+
+
+@media only screen and (min-width: 750px){
+   .site-wrapper {
+       padding: 0 20px;
+   }
+}
+@media only screen and (min-width:768px){
+.compare-info .mobile-compare-view{display: none!important;}
+
+
+}
+@media only screen and (max-width:767px){
+.compare-info .mobile-compare-view{display: block;}
+.compare-info table#compare-sortable{display: none;}
+}
+
+@media only screen and (max-width: 749px){
+.responsive-table tr {
+   display: table-row;
+}
+.compare-info th, .compare-info tr, .compare-info td{width:180px!important;}
+.responsive-table thead {
+    display: table-header-group!important;
+}
+.responsive-table th, .responsive-table td {
+   display: table-cell;
+}
+.certificate-div .SumoSelect>.CaptionCont>label>i:before {margin-left:7px;}
+}
+@media only screen and (max-width:639px){
+.filter-details .cut-main ul li {
+   min-width: 30%;
+}
+}
+
+@media only screen and (max-width:767px){
+.mobile-compare-view .compare-main-container .compare-items [class*="item-"] img[alt="Diamond"] {width: 50px;height: 50px;    margin-bottom: 4px;}
+.mobile-compare-view .compare-main-container .compare-items [class*="item-"] span{font-size: 14px;}
+.mobile-compare-view .compare-main-container .compare-items [class*="item-"]{padding: 4px;}
+.mobile-compare-view .compare-main-container .compare-items .view-product{    padding: 0.2rem;}
+.shape-flex .filter-main .filter-for-shape{    flex-direction: column;}
+.filter-for-shape ul li{    margin-right: 3.5%;width: 31%;max-width: 31%;}
+.filter-for-shape ul li:nth-child(3n + 0) {margin-right: 0;}
+.filter-details h4{margin-top: 0}
+.shape-bg{padding-top: 8px}
+.polish-depth,.color-filter{flex-wrap: wrap;}
+.price_carat-filter.shape-container.shape-flex .filter-main, .filter-advanced .shape-flex .filter-main{max-width: 100%;flex: 0 0 100%;}
+.filter-main .slider_wrapper {padding: 10px 0px 0;}
+.filter-main .slider_wrapper{padding-bottom: 10px}
+.filter-advanced .shape-flex .filter-main:last-child {padding-left: 0;}
+.filter-advanced .shape-flex .filter-main{padding-bottom: 0}
+.polish-depth{margin-bottom: 8px}
+.filter-details ul li {flex: 0 0 31%;-ms-flex: 0 0 31%;max-width: 31%;margin-right: 3.5% !important;margin-left: 0 !important}
+.filter-details ul li:nth-child(3n + 0) {margin-right: 0 !important;}
+}
+
+@media only screen and (max-width: 320px) {
+   .price-main .price-left span.currency-icon, .price-main .price-right span.currency-icon{font-size: 12px;}
+   .price-main .price-right span.currency-icon{right: 74px;}
+   #search-diamonds .ui-slider .price-right .ui-slider-val.slider-right, #search-diamonds .ui-slider .price-left .ui-slider-val.slider-left{    width: 122px;padding: 0 4px !important;font-size: 12px;}
+   .price-main .price-left{left: -4px;}
+   .price-main .price-right {right: -4px;}
+   .shape-bg{padding: 12px;}
+}
+.alert .btn{padding:inherit !important;}
+
+.stuller_disable{
+   text-align: center;
+   font-size: 35px;
+   margin: 170px;
+   height: 300px;
+}
